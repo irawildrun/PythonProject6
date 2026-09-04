@@ -1,5 +1,7 @@
 from typing import Any, Dict, List
 
+from widget import parse_iso_date
+
 list_of_bank_operations = [
     {'id': 41428829, 'state': 'EXECUTED', 'date': '2019-07-03T18:35:29.512364'},
     {'id': 939719570, 'state': 'EXECUTED', 'date': '2018-06-30T02:08:58.425572'},
@@ -14,8 +16,22 @@ def filter_by_state(list_of_bank_operations: List[Dict[str, Any]], state: str = 
     return [operation for operation in list_of_bank_operations if operation['state'] == state]
 
 
+def sort_by_date(list_of_bank_operations: List[Dict[str, Any]], reverse: bool=True) -> List[Dict[str, Any]]:
+    """Функция сортировки банковских операций по дате,
+    по-умолчанию направление - по-убыванию (сначала новые).
+    Импортируем функционал превращения строки с датой в ISO-формат из ДЗ по 9.2 из модуля widget.py
+    """
+    return sorted(list_of_bank_operations, key=lambda x: parse_iso_date(x['date']), reverse=reverse)
+
+
+
 
 # проверка работы функции фильтрации по статусу операции
 executed_operations = filter_by_state(list_of_bank_operations, 'EXECUTED')
 print(executed_operations)
 
+# проверка работы функции сортировки по по убыванию (по-умолчанию) и возрастанию соответственно
+sorted_operations_from_new = sort_by_date(list_of_bank_operations)
+sorted_operations_from_old = sort_by_date(list_of_bank_operations, reverse=False)
+print(sorted_operations_from_new)
+print(sorted_operations_from_old)
