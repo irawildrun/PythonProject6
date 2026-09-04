@@ -1,0 +1,15 @@
+[flake8]
+max-line-length = 119
+max-doc-length = 119
+per-file-ignores =
+    __init__.py: F401
+    ./tests/*:D100,D101,D102,D103
+exclude =
+    .git,
+    venv,
+    __pycache__,
+    test_*.py
+format = pylint
+indent-size = 4
+show_source = True
+statistics = True
