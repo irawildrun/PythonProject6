@@ -1,5 +1,4 @@
 from typing import Any, Dict, List
-
 from widget import parse_iso_date
 
 list_of_bank_operations = [
@@ -9,6 +8,7 @@ list_of_bank_operations = [
     {'id': 615064591, 'state': 'CANCELED', 'date': '2018-10-14T08:21:33.419441'},
 ]
 
+
 # Для аннотации типов импортируем Any, Dict, List из модуля typing.
 def filter_by_state(list_of_bank_operations: List[Dict[str, Any]], state: str = 'EXECUTED') -> List[Dict[str, Any]]:
     """Функция фильтрации банковских операций по статусу, по-умолчанию статус 'EXECUTED' (ВЫПОЛНЕНО)
@@ -16,14 +16,12 @@ def filter_by_state(list_of_bank_operations: List[Dict[str, Any]], state: str = 
     return [operation for operation in list_of_bank_operations if operation['state'] == state]
 
 
-def sort_by_date(list_of_bank_operations: List[Dict[str, Any]], reverse: bool=True) -> List[Dict[str, Any]]:
+def sort_by_date(list_of_bank_operations: List[Dict[str, Any]], reverse: bool = True) -> List[Dict[str, Any]]:
     """Функция сортировки банковских операций по дате,
     по-умолчанию направление - по-убыванию (сначала новые).
     Импортируем функционал превращения строки с датой в ISO-формат из ДЗ по 9.2 из модуля widget.py
     """
     return sorted(list_of_bank_operations, key=lambda x: parse_iso_date(x['date']), reverse=reverse)
-
-
 
 
 # проверка работы функции фильтрации по статусу операции
