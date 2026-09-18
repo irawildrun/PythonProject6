@@ -1,6 +1,6 @@
 import re
 from datetime import datetime
-from masks import get_mask_account, get_mask_card_number
+from src.masks import get_mask_account, get_mask_card_number
 
 
 def mask_account_card(data: str) -> str:
@@ -15,7 +15,8 @@ def mask_account_card(data: str) -> str:
     # достаем номер для маскировки
     number = match.group()
 
-    if data.startswith("Счет"):
+    # просле написания теста сделала проверку строки на наличие "Счет"
+    if "Счет" in data:
         masked_number = get_mask_account(number)
     else:
         masked_number = get_mask_card_number(number)

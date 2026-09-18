@@ -3,6 +3,11 @@
 
 def get_mask_card_number(card_number: str) -> str:
     """Маскирует номер карты по формату XXXX XX** **** XXXX."""
+
+    # После написания теста добавила фильтр на тип входных данных внутрь функции.
+    if not isinstance(card_number, str):
+        raise TypeError("Номер карты должен быть строкой.")
+
     if not (card_number.isdigit() and len(card_number) == 16):
         raise ValueError("Номер карты должен содержать 16 цифр.")
 
@@ -12,6 +17,11 @@ def get_mask_card_number(card_number: str) -> str:
 
 def get_mask_account(account_number: str) -> str:
     """Маскирует номер банковского счета по формату **XXXX."""
+
+    # После написания теста добавила фильтр на тип входных данных внутрь функции.
+    if not isinstance(account_number, str):
+        raise TypeError("Номер счета должен быть строкой.")
+
     if not (account_number.isdigit() and len(account_number) >= 4):
         raise ValueError("Номер счета должен содержать минимум 4 цифры.")
 
