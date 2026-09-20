@@ -1,5 +1,5 @@
 from typing import Any, Dict, List
-from widget import parse_iso_date
+from src.widget import parse_iso_date
 
 list_of_bank_operations = [
     {'id': 41428829, 'state': 'EXECUTED', 'date': '2019-07-03T18:35:29.512364'},
