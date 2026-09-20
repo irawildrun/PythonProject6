@@ -113,3 +113,29 @@ for _ in range(5):
 
 
 
+def card_number_generator(start: int, end: int) -> Generator[str, Any, None]:
+    """
+    Функция-генератор номеров банковских карт.
+    Принимает диапазон целых чисел (от 1 до 9999999999999999) и возвращает
+    строки с номерами карт в формате XXXX XXXX XXXX XXXX.
+    """
+    # Если входные данные не валидны, возвращаем сообщения об ошибке
+    if start < 1:
+        raise ValueError("начало диапазона номеров карт должно быть >= 1")
+    if end < start:
+        raise ValueError("окончание диапазона номеров карт должно быть выше его начала")
+
+    for num in range(start, end + 1):
+        # Преобразуем число в строку 16 символов с ведущими нулями, используем спецификатор формата f-строки:
+        # d - целое число, с шириной строки 16 символов, недостающее заполнить нулями
+        full_num = f'{num:016d}'
+
+        # Разбиваем на группы по 4 символа через пробел
+        card_number = f'{full_num[0:4]} {full_num[4:8]} {full_num[8:12]} {full_num[12:16]}'
+        yield card_number
+
+
+for card_number in card_number_generator(1, 5):
+    print(card_number)
+
+
