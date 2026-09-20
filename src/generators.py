@@ -99,3 +99,17 @@ for _ in range(2):
 
 
 
+def transaction_descriptions(transactions: Dict[str, Any]) -> Generator[str, Any, None]:
+    """
+    Функция-генератор, последовательно возвращает описания операций из списка транзакций.
+    """
+    for transaction in transactions:
+        description = transaction.get('description', '')
+        yield description
+
+descriptions = transaction_descriptions(transactions)
+for _ in range(5):
+    print(next(descriptions))
+
+
+
