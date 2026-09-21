@@ -137,5 +137,3 @@ def card_number_generator(start: int, end: int) -> Generator[str, Any, None]:
 
 for card_number in card_number_generator(1, 5):
     print(card_number)
-
-
