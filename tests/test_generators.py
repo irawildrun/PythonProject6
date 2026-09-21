@@ -1,5 +1,5 @@
 import pytest
-from src.generators import filter_by_currency, transaction_descriptions, card_number_generator
+from src.generators import card_number_generator, filter_by_currency, transaction_descriptions
 
 
 # фикстуры для filter_by_currency
@@ -9,49 +9,39 @@ def test_transactions():
         {
             "id": 939719570,
             "state": "EXECUTED",
-            "operationAmount": {
-                "amount": "9824.07",
-                "currency": {"name": "USD", "code": "USD"}
-            },
-            "description": "Перевод организации"
+            "operationAmount": {"amount": "9824.07", "currency": {"name": "USD", "code": "USD"}},
+            "description": "Перевод организации",
         },
         {
             "id": 142264268,
             "state": "EXECUTED",
-            "operationAmount": {
-                "amount": "79114.93",
-                "currency": {"name": "USD", "code": "USD"}
-            },
-            "description": "Перевод со счета на счет"
+            "operationAmount": {"amount": "79114.93", "currency": {"name": "USD", "code": "USD"}},
+            "description": "Перевод со счета на счет",
         },
         {
             "id": 873106923,
             "state": "EXECUTED",
-            "operationAmount": {
-                "amount": "43318.34",
-                "currency": {"name": "руб.", "code": "RUB"}
-            },
-            "description": "Перевод со счета на счет"
+            "operationAmount": {"amount": "43318.34", "currency": {"name": "руб.", "code": "RUB"}},
+            "description": "Перевод со счета на счет",
         },
         {
             "id": 594226727,
             "state": "CANCELED",
-            "operationAmount": {
-                "amount": "67314.70",
-                "currency": {"name": "руб.", "code": "RUB"}
-            },
-            "description": "Перевод организации"
-        }
+            "operationAmount": {"amount": "67314.70", "currency": {"name": "руб.", "code": "RUB"}},
+            "description": "Перевод организации",
+        },
     ]
 
 
 # параметризация для filter_by_currency
-@pytest.mark.parametrize("currency_code, expected_count", [
-    ("USD", 2),
-    ("RUB", 2),
-    ("EUR", 0),
-])
-
+@pytest.mark.parametrize(
+    "currency_code, expected_count",
+    [
+        ("USD", 2),
+        ("RUB", 2),
+        ("EUR", 0),
+    ],
+)
 def test_filter_by_currency_counts(test_transactions, currency_code, expected_count):
     """Количество отфильтрованных транзакций соответствует ожиданиям."""
     generator = filter_by_currency(test_transactions, currency_code)
@@ -81,25 +71,15 @@ def test_filter_by_currency_returns_dicts(test_transactions):
 
 
 # параметризация для transaction_descriptions
-@pytest.mark.parametrize("input_data, expected", [
-    (
-        [{"description": "A"}, {"description": "B"}, {"description": "C"}],
-        ["A", "B", "C"]
-    ),
-    (
-        [],
-        []
-    ),
-    (
-        [{"description": "Only one"}],
-        ["Only one"]
-    ),
-    (
-        [{}, {"description": "with description"}, {"description": ""}],
-        ["", "with description", ""]
-    ),
-])
-
+@pytest.mark.parametrize(
+    "input_data, expected",
+    [
+        ([{"description": "A"}, {"description": "B"}, {"description": "C"}], ["A", "B", "C"]),
+        ([], []),
+        ([{"description": "Only one"}], ["Only one"]),
+        ([{}, {"description": "with description"}, {"description": ""}], ["", "with description", ""]),
+    ],
+)
 def test_transaction_descriptions_content(input_data, expected):
     """Проверка работы функции."""
     generator = transaction_descriptions(input_data)
@@ -123,16 +103,14 @@ def test_transaction_descriptions_empty():
 
 
 # параметризация для card_number_generator
-@pytest.mark.parametrize("start, end, expected", [
-    (1, 1, ["0000 0000 0000 0001"]),
-    (5, 6, ["0000 0000 0000 0005", "0000 0000 0000 0006"]),
-    (
-        9999999999999998,
-        9999999999999999,
-        ["9999 9999 9999 9998", "9999 9999 9999 9999"]
-    ),
-])
-
+@pytest.mark.parametrize(
+    "start, end, expected",
+    [
+        (1, 1, ["0000 0000 0000 0001"]),
+        (5, 6, ["0000 0000 0000 0005", "0000 0000 0000 0006"]),
+        (9999999999999998, 9999999999999999, ["9999 9999 9999 9998", "9999 9999 9999 9999"]),
+    ],
+)
 def test_card_number_generator_range(start, end, expected):
     """Генератор выдаёт правильные номера в заданном диапазоне."""
     generator = card_number_generator(start, end)
