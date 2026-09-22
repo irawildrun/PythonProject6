@@ -54,3 +54,9 @@ dev = [
     "pytest (>=9.1.1,<10.0.0)",
     "pytest-cov (>=7.1.0,<8.0.0)"
 ]
+
+#исключить из покрытия тестами из всего проекта. либо коммент по строке/блоку кода: " pragma: no cover "
+[tool.coverage.report]
+exclude_also = [
+    "if __name__ == .__main__.:"
+]
