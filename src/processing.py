@@ -1,5 +1,7 @@
 from typing import Any, Dict, List
 from src.widget import parse_iso_date
+from src.decorators import log
+
 
 list_of_bank_operations = [
     {'id': 41428829, 'state': 'EXECUTED', 'date': '2019-07-03T18:35:29.512364'},
@@ -10,12 +12,14 @@ list_of_bank_operations = [
 
 
 # Для аннотации типов импортируем Any, Dict, List из модуля typing.
+@log(filename='../processing_logs.txt')
 def filter_by_state(list_of_bank_operations: List[Dict[str, Any]], state: str = 'EXECUTED') -> List[Dict[str, Any]]:
     """Функция фильтрации банковских операций по статусу, по-умолчанию статус 'EXECUTED' (ВЫПОЛНЕНО)
     Используем list comprehension."""
     return [operation for operation in list_of_bank_operations if operation['state'] == state]
 
 
+@log(filename='../processing_logs.txt')
 def sort_by_date(list_of_bank_operations: List[Dict[str, Any]], reverse: bool = True) -> List[Dict[str, Any]]:
     """Функция сортировки банковских операций по дате,
     по-умолчанию направление - по-убыванию (сначала новые).

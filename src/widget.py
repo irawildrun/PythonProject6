@@ -1,13 +1,15 @@
 import re
 from datetime import datetime
 from src.masks import get_mask_account, get_mask_card_number
+from src.decorators import log
 
-
+@log(filename='../widget_logs.txt')
+@log()
 def mask_account_card(data: str) -> str:
     """Маскировка номера карты или счета"""
     # Проверяем на наличие цифр в конце строки, если они есть, выполнится функция маскировки
     # Иначе вернет данные обратно
-    match = re.search(r"\d+$", data)
+    match = re.search(r'\d+$', data)
 
     if not match:
         return data
@@ -16,7 +18,7 @@ def mask_account_card(data: str) -> str:
     number = match.group()
 
     # просле написания теста сделала проверку строки на наличие "Счет"
-    if "Счет" in data:
+    if 'Счет' in data:
         masked_number = get_mask_account(number)
     else:
         masked_number = get_mask_card_number(number)
@@ -52,11 +54,11 @@ def get_date(date: str) -> str:
     """Форматирует дату в ДД.ММ.ГГГГ (для отображения)."""
     date_obj = parse_iso_date(date)
     # возвращаем в нужном формате с помощью метода .strftime()
-    return date_obj.strftime("%d.%m.%Y")
+    return date_obj.strftime('%d.%m.%Y')
 
 
 print(mask_account_card('Maestro 1596837868705199'))
 print(mask_account_card('Счет 64686473678894779589'))
 print(mask_account_card(''))
 
-print(get_date("2024-03-11T02:26:18.671407"))
+print(get_date('2024-03-11T02:26:18.671407'))

@@ -1,4 +1,4 @@
-from datetime import time
+import time
 from functools import wraps
 
 
@@ -26,16 +26,22 @@ def log(filename=None):
                     f'{func.__name__} ok\n'
                     f'Args: {args}, Kwargs: {kwargs}\n'
                     f'Time taken: {end_time - start_time:.06f} seconds\n'
-                    f'Result: {result}\n'
+                    f'Result: {result}\n\n'
                 )
             except Exception as exc:
                 end_time = time.time()
+
                 # Формируем сообщение об ошибке
                 message = (
                     f'{func.__name__} error: {exc}\n'
                     f'Args: {args}, Kwargs: {kwargs}\n'
-                    f'Time taken: {end_time - start_time:.06f} seconds\n'
+                    f'Time taken: {end_time - start_time:.06f} seconds\n\n'
                 )
+                if filename:
+                    with open(filename, 'a', encoding='utf-8') as f:
+                        f.write(message)
+                else:
+                    print(message)
                 # возбуждаем ошибку, если в результате выполнения функции есть ошибка
                 raise
 

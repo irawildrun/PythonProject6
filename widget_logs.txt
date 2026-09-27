@@ -1,0 +1,60 @@
+mask_account_card ok
+Args: ('Maestro 1596837868705199',), Kwargs: {}
+Time taken: 0.001401 seconds
+Result: Maestro 1596 83** **** 5199
+
+mask_account_card ok
+Args: ('Счет 64686473678894779589',), Kwargs: {}
+Time taken: 0.000429 seconds
+Result: Счет **9589
+
+mask_account_card ok
+Args: ('',), Kwargs: {}
+Time taken: 0.000008 seconds
+Result: 
+
+mask_account_card ok
+Args: ('Maestro 1596837868705199',), Kwargs: {}
+Time taken: 0.000817 seconds
+Result: Maestro 1596 83** **** 5199
+
+mask_account_card ok
+Args: ('Счет 64686473678894779589',), Kwargs: {}
+Time taken: 0.000432 seconds
+Result: Счет **9589
+
+mask_account_card ok
+Args: ('',), Kwargs: {}
+Time taken: 0.000015 seconds
+Result: 
+
+mask_account_card ok
+Args: ('Maestro 1596837868705199',), Kwargs: {}
+Time taken: 0.000617 seconds
+Result: Maestro 1596 83** **** 5199
+
+mask_account_card ok
+Args: ('Счет 64686473678894779589',), Kwargs: {}
+Time taken: 0.000354 seconds
+Result: Счет **9589
+
+mask_account_card ok
+Args: ('',), Kwargs: {}
+Time taken: 0.000009 seconds
+Result: 
+
+mask_account_card ok
+Args: ('Maestro 1596837868705199',), Kwargs: {}
+Time taken: 0.000733 seconds
+Result: Maestro 1596 83** **** 5199
+
+mask_account_card ok
+Args: ('Счет 64686473678894779589',), Kwargs: {}
+Time taken: 0.000412 seconds
+Result: Счет **9589
+
+mask_account_card ok
+Args: ('',), Kwargs: {}
+Time taken: 0.000019 seconds
+Result: 
+
