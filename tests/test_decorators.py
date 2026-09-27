@@ -31,7 +31,7 @@ def test_log_error_console(capsys):
     logged_test_func = log()(error_out)
 
     with pytest.raises(ValueError):
-        log()(logged_test_func('_error_'))
+        logged_test_func('_error_')
 
     captured = capsys.readouterr()
     assert 'error_out error' in captured.out
