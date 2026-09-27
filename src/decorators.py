@@ -9,6 +9,7 @@ def log(filename=None):
     Если не указан, печатает в консоль.
     Логирует время, результат или ошибку.
     """
+
     def decorator(func):
         @wraps(func)
         def wrapper(*args, **kwargs):
@@ -52,6 +53,7 @@ def log(filename=None):
             else:
                 print(message)
             return result
-        return wrapper
-    return decorator
 
+        return wrapper
+
+    return decorator

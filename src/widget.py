@@ -1,7 +1,8 @@
 import re
 from datetime import datetime
-from src.masks import get_mask_account, get_mask_card_number
 from src.decorators import log
+from src.masks import get_mask_account, get_mask_card_number
+
 
 @log(filename='../widget_logs.txt')
 @log()

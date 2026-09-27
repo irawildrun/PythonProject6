@@ -1,6 +1,7 @@
 # Реализация функций маскировки номера карты и банковского счета
 from src.decorators import log
 
+
 @log(filename='../masks_logs.txt')
 def get_mask_card_number(card_number: str) -> str:
     """Маскирует номер карты по формату XXXX XX** **** XXXX."""
@@ -46,4 +47,3 @@ if __name__ == '__main__':
         print(get_mask_account(account_number))
     except Exception as e:
         print(f"Ошибка: {e}")
-
