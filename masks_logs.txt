@@ -1,0 +1,94 @@
+get_mask_card_number ok
+Args: ('1596837868705199',), Kwargs: {}
+Time taken: 0.000006 seconds
+Result: 1596 83** **** 5199
+
+get_mask_account ok
+Args: ('64686473678894779589',), Kwargs: {}
+Time taken: 0.000006 seconds
+Result: **9589
+
+get_mask_card_number ok
+Args: ('1596837868705199',), Kwargs: {}
+Time taken: 0.000008 seconds
+Result: 1596 83** **** 5199
+
+get_mask_account ok
+Args: ('64686473678894779589',), Kwargs: {}
+Time taken: 0.000005 seconds
+Result: **9589
+
+get_mask_card_number ok
+Args: ('1111111111111111',), Kwargs: {}
+Time taken: 0.000015 seconds
+Result: 1111 11** **** 1111
+
+get_mask_account ok
+Args: ('4561055',), Kwargs: {}
+Time taken: 0.000015 seconds
+Result: **1055
+
+get_mask_card_number ok
+Args: ('1596837868705199',), Kwargs: {}
+Time taken: 0.000005 seconds
+Result: 1596 83** **** 5199
+
+get_mask_account ok
+Args: ('64686473678894779589',), Kwargs: {}
+Time taken: 0.000005 seconds
+Result: **9589
+
+get_mask_card_number ok
+Args: ('1596837868705199',), Kwargs: {}
+Time taken: 0.000005 seconds
+Result: 1596 83** **** 5199
+
+get_mask_account ok
+Args: ('64686473678894779589',), Kwargs: {}
+Time taken: 0.000009 seconds
+Result: **9589
+
+get_mask_card_number error: Номер карты должен содержать 16 цифр.
+Args: ('111100001111000',), Kwargs: {}
+Time taken: 0.000020 seconds
+
+get_mask_card_number error: Номер карты должен содержать 16 цифр.
+Args: ('444400004444000',), Kwargs: {}
+Time taken: 0.000019 seconds
+
+get_mask_account error: Номер счета должен содержать минимум 4 цифры.
+Args: ('444',), Kwargs: {}
+Time taken: 0.000014 seconds
+
+get_mask_card_number error: Номер карты должен содержать 16 цифр.
+Args: ('444400004444000',), Kwargs: {}
+Time taken: 0.000010 seconds
+
+get_mask_card_number error: Номер карты должен содержать 16 цифр.
+Args: ('555522225555000',), Kwargs: {}
+Time taken: 0.000018 seconds
+
+get_mask_account error: Номер счета должен содержать минимум 4 цифры.
+Args: ('999',), Kwargs: {}
+Time taken: 0.000022 seconds
+
+get_mask_card_number error: Номер карты должен содержать 16 цифр.
+Args: ('888811118888000',), Kwargs: {}
+Time taken: 0.000019 seconds
+
+get_mask_account error: Номер счета должен содержать минимум 4 цифры.
+Args: ('777',), Kwargs: {}
+Time taken: 0.000014 seconds
+
+get_mask_card_number error: Номер карты должен содержать 16 цифр.
+Args: ('99991111999911',), Kwargs: {}
+Time taken: 0.000019 seconds
+
+get_mask_card_number error: Номер карты должен содержать 16 цифр.
+Args: ('333377773',), Kwargs: {}
+Time taken: 0.000022 seconds
+
+get_mask_account error: Номер счета должен содержать минимум 4 цифры.
+Args: ('56',), Kwargs: {}
+Time taken: 0.000014 seconds
+
