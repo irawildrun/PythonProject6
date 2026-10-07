@@ -1,6 +1,6 @@
 import json
 from unittest.mock import mock_open, patch
-from utils import read_operations
+from src.utils import read_operations
 
 
 def test_read_operations_success_open():

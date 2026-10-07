@@ -25,7 +25,6 @@ def read_operations(path):
         return []
 
 
-
 if __name__ == '__main__':
     operations = read_operations('../data/operations.json')
     print('Результат:', operations)
