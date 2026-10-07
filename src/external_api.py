@@ -1,7 +1,14 @@
+import os
+from dotenv import load_dotenv
 import requests
-import json
 
-API_KEY = '1vsVLrm1UVMVV9utaqlTHZsFj5WCr0p8'
+load_dotenv()
+
+API_KEY = os.getenv('API_KEY')
+
+if not API_KEY:
+    raise ValueError('API_KEY не найден. Проверь файл .env')
+
 # в документации указан пример, берем оттуда сайт API. без endpoints не работает, берем курсы валют на текущую дату
 URL = 'https://api.apilayer.com/exchangerates_data/latest'
 
@@ -38,8 +45,8 @@ def get_transaction_amount_in_rub(transaction):
     try:
         response = requests.get(
             URL,
-            params={'base': currency, 'symbols': 'RUB'},
-            headers={'apikey': API_KEY},
+            params={"base": currency, "symbols": "RUB"},
+            headers={"apikey": API_KEY},
             timeout=10
         )
 
@@ -52,7 +59,7 @@ def get_transaction_amount_in_rub(transaction):
         rate = data['rates']['RUB']
         # Умножаем сумму на курс, округляем до 2 знаков после запятой
         result = round(amount * rate, 2)
-        return f'Запрошенная сумма, рассчитанная в рублях: {result}'
+        return result
 
     except Exception as e:
         print(f'Ошибка при конвертации: {e}')
@@ -60,4 +67,4 @@ def get_transaction_amount_in_rub(transaction):
 
 
 
-print(get_transaction_amount_in_rub({'amount': 180, 'currency': 'EUR'}))
+print(get_transaction_amount_in_rub({'amount': 200, 'currency': 'EUR'}))
