@@ -1,13 +1,12 @@
 # Реализация функций маскировки номера карты и банковского счета
-from src.decorators import log
 import logging
-
+from src.decorators import log
 
 # создаю логгер модуля, задаю уровень
 logger = logging.getLogger('masks.py')
 logger.setLevel(logging.DEBUG)
 # делаю хендлер на запись в файл в режиме перезаписи
-file_handler = logging.FileHandler('../logs/masks.log', mode = 'w', encoding='utf-8')
+file_handler = logging.FileHandler('../logs/masks.log', mode='w', encoding='utf-8')
 file_formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s: %(message)s')
 file_handler.setFormatter(file_formatter)
 logger.addHandler(file_handler)

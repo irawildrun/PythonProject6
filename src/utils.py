@@ -1,13 +1,12 @@
 import json
-from pathlib import Path
 import logging
-
+from pathlib import Path
 
 # создаю логгер модуля, задаю уровень
 logger = logging.getLogger('utils.py')
 logger.setLevel(logging.DEBUG)
 # делаю хендлер на запись в файл в режиме перезаписи
-file_handler = logging.FileHandler('../logs/utils.log', mode = 'w', encoding='utf-8')
+file_handler = logging.FileHandler('../logs/utils.log', mode='w', encoding='utf-8')
 file_formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s: %(message)s')
 file_handler.setFormatter(file_formatter)
 logger.addHandler(file_handler)
@@ -37,7 +36,7 @@ def read_operations(path):
     # если любая ошибка: декодирования/файл не найден/ошибка значения, то пустой список
     except (json.JSONDecodeError, FileNotFoundError, ValueError) as e:
         print('ОШИБКА: ', e)
-        logger.error('Ошибка чтения транзакций: %s',e)
+        logger.error('Ошибка чтения транзакций: %s', e)
         return []
 
 

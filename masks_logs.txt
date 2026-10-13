@@ -92,3 +92,31 @@ get_mask_account error: Номер счета должен содержать м
 Args: ('56',), Kwargs: {}
 Time taken: 0.000014 seconds
 
+get_mask_card_number error: Номер карты должен содержать 16 цифр.
+Args: ('45182621605435',), Kwargs: {}
+Time taken: 0.001240 seconds
+
+get_mask_account ok
+Args: ('45466',), Kwargs: {}
+Time taken: 0.000225 seconds
+Result: **5466
+
+get_mask_card_number error: Номер карты должен содержать 16 цифр.
+Args: ('11111111111111111111',), Kwargs: {}
+Time taken: 0.001139 seconds
+
+get_mask_account ok
+Args: ('11111',), Kwargs: {}
+Time taken: 0.000193 seconds
+Result: **1111
+
+get_mask_card_number ok
+Args: ('1111111111111111',), Kwargs: {}
+Time taken: 0.001270 seconds
+Result: 1111 11** **** 1111
+
+get_mask_account ok
+Args: ('1111',), Kwargs: {}
+Time taken: 0.000209 seconds
+Result: **1111
+
