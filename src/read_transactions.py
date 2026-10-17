@@ -4,7 +4,7 @@ import json
 import pandas as pd
 
 
-def read_csv_operations(path):
+def read_csv_transactions(path):
     """Читает финансовые операции из CSV-файла"""
     try:
         #  в файле данные разделены ;, поэтому нужно указать разделитель
@@ -17,7 +17,7 @@ def read_csv_operations(path):
         return []
 
 
-def read_excel_operations(path):
+def read_excel_transactions(path):
     """Читает финансовые операции из excel-файла"""
     try:
         data = pd.read_excel(path)
@@ -31,13 +31,13 @@ def read_excel_operations(path):
 
 
 if __name__ == '__main__':
-    csv_operations = read_csv_operations('../data/transactions.csv')
+    csv_operations = read_csv_transactions('../data/transactions.csv')
     # сделаем "красивый" вывод с отступами для большей информативности
     print(json.dumps(csv_operations[:3], indent=4, ensure_ascii=False))
     # print(json.dumps(csv_operations, indent=4, ensure_ascii=False))
     print('csv', len(csv_operations))
 
-    excel_operations = read_excel_operations('../data/transactions_excel.xlsx')
+    excel_operations = read_excel_transactions('../data/transactions_excel.xlsx')
     # сделаем "красивый" вывод с отступами для большей информативности
     print(json.dumps(excel_operations[:3], indent=4, ensure_ascii=False))
     # print(json.dumps(csv_operations, indent=4, ensure_ascii=False))

@@ -2,11 +2,15 @@ import json
 import logging
 from pathlib import Path
 
+# перестал видеть файлы с логами, хотя по директориям не перемещалась. тогда сделаем абсолютный путь, в корне проекта
+logs_dir = Path(__file__).resolve().parent.parent / 'logs'
+logs_dir.mkdir(exist_ok=True)
+
 # создаю логгер модуля, задаю уровень
 logger = logging.getLogger('utils.py')
 logger.setLevel(logging.DEBUG)
 # делаю хендлер на запись в файл в режиме перезаписи
-file_handler = logging.FileHandler('../logs/utils.log', mode='w', encoding='utf-8')
+file_handler = logging.FileHandler(logs_dir / 'utils.log', mode='w', encoding='utf-8')
 file_formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s: %(message)s')
 file_handler.setFormatter(file_formatter)
 logger.addHandler(file_handler)
