@@ -1,6 +1,6 @@
 import csv
-import openpyxl
 import json
+import openpyxl
 import pandas as pd
 
 
@@ -27,7 +27,6 @@ def read_excel_transactions(path):
     except Exception as e:
         print(f'Ошибка при чтении файла: {e}')
         return []
-
 
 
 if __name__ == '__main__':

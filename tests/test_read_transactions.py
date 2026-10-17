@@ -1,5 +1,5 @@
-import pandas as pd
 from unittest.mock import Mock, patch
+import pandas as pd
 from src.read_transactions import read_csv_transactions, read_excel_transactions
 
 
@@ -7,20 +7,12 @@ def test_read_csv_transactions():
     """Проверяет чтение финансовых операций из CSV-файла"""
 
     # в качестве mock возьмем усеченные транзакции из файла
-    mock_data = pd.DataFrame([
-        {
-            "id": 650703.0,
-            "state": "EXECUTED",
-            "date": "2023-09-05T11:30:32Z",
-            "amount": 16210.0
-        },
-        {
-            "id": 3598919.0,
-            "state": "EXECUTED",
-            "date": "2020-12-06T23:00:58Z",
-            "amount": 29740.0
-        }
-    ])
+    mock_data = pd.DataFrame(
+        [
+            {"id": 650703.0, "state": "EXECUTED", "date": "2023-09-05T11:30:32Z", "amount": 16210.0},
+            {"id": 3598919.0, "state": "EXECUTED", "date": "2020-12-06T23:00:58Z", "amount": 29740.0},
+        ]
+    )
 
     mock_read_csv = Mock(return_value=mock_data)
 
@@ -28,22 +20,11 @@ def test_read_csv_transactions():
         result = read_csv_transactions('fake.csv')
 
     expected = [
-        {
-            "id": 650703.0,
-            "state": "EXECUTED",
-            "date": "2023-09-05T11:30:32Z",
-            "amount": 16210.0
-        },
-        {
-            "id": 3598919.0,
-            "state": "EXECUTED",
-            "date": "2020-12-06T23:00:58Z",
-            "amount": 29740.0
-        }
+        {"id": 650703.0, "state": "EXECUTED", "date": "2023-09-05T11:30:32Z", "amount": 16210.0},
+        {"id": 3598919.0, "state": "EXECUTED", "date": "2020-12-06T23:00:58Z", "amount": 29740.0},
     ]
 
     assert result == expected
-
 
 
 def test_read_csv_file_not_found():
@@ -57,20 +38,12 @@ def test_read_csv_file_not_found():
 def test_read_excel_operations():
     """Проверяет чтение финансовых операций из Excel-файла"""
 
-    mock_data = pd.DataFrame([
-        {
-            "id": 650703.0,
-            "state": "EXECUTED",
-            "date": "2023-09-05T11:30:32Z",
-            "amount": 16210.0
-        },
-        {
-            "id": 3598919.0,
-            "state": "EXECUTED",
-            "date": "2020-12-06T23:00:58Z",
-            "amount": 29740.0
-        }
-    ])
+    mock_data = pd.DataFrame(
+        [
+            {"id": 650703.0, "state": "EXECUTED", "date": "2023-09-05T11:30:32Z", "amount": 16210.0},
+            {"id": 3598919.0, "state": "EXECUTED", "date": "2020-12-06T23:00:58Z", "amount": 29740.0},
+        ]
+    )
 
     mock_read_excel = Mock(return_value=mock_data)
 
@@ -78,22 +51,11 @@ def test_read_excel_operations():
         result = read_excel_transactions('fake.xlsx')
 
     expected = [
-        {
-            "id": 650703.0,
-            "state": "EXECUTED",
-            "date": "2023-09-05T11:30:32Z",
-            "amount": 16210.0
-        },
-        {
-            "id": 3598919.0,
-            "state": "EXECUTED",
-            "date": "2020-12-06T23:00:58Z",
-            "amount": 29740.0
-        }
+        {"id": 650703.0, "state": "EXECUTED", "date": "2023-09-05T11:30:32Z", "amount": 16210.0},
+        {"id": 3598919.0, "state": "EXECUTED", "date": "2020-12-06T23:00:58Z", "amount": 29740.0},
     ]
 
     assert result == expected
-
 
 
 def test_read_excel_file_not_found():

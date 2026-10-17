@@ -1,7 +1,7 @@
 # Реализация функций маскировки номера карты и банковского счета
 import logging
-from src.decorators import log
 from pathlib import Path
+from src.decorators import log
 
 # перестал видеть файлы с логами, хотя по директориям не перемещалась. тогда сделаем абсолютный путь, в корне проекта
 logs_dir = Path(__file__).resolve().parent.parent / 'logs'
