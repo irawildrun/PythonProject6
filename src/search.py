@@ -17,3 +17,24 @@ def process_bank_search(data: list[dict], search: str) -> list[dict]:
 
     return result
 
+
+
+def process_bank_operations(data: list[dict], categories: list) -> dict:
+    """Подсчитывает количество операций по категориям"""
+
+    result = {}
+
+    for category in categories:
+        count = 0
+
+        for operation in data:
+            description = operation.get('description', '')
+
+            # делаем возможность поиска по части строки, а не по точному совпадению.
+            # Приводим строки поиска к единому формату через нижний регистр
+            if category.lower() in description.lower():
+                count += 1
+
+        result[category] = count
+
+    return result
