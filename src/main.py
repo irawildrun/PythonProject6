@@ -1,3 +1,4 @@
+from datetime import datetime
 from pathlib import Path
 
 from src.utils import read_operations
@@ -9,6 +10,9 @@ from src.search import process_bank_search
 
 # Папка с файлами
 DATA_DIR = Path(__file__).resolve().parent.parent / 'data'
+
+# Папка для сохранения результатов
+RESULTS_DIR = Path(__file__).resolve().parent.parent / 'results'
 
 
 # вывожу отдельно функцию Ответов Да и Нет для сокращения кода основных функций
@@ -102,6 +106,54 @@ def format_transaction(transaction):
     return result
 
 
+# Сохраняем результаты в отдельную папку для информативности по запросам
+def save_results(transactions, query_info):
+    """Сохраняет результаты обработки в отдельный текстовый файл"""
+
+    # Создаём папку results, если её ещё нет
+    RESULTS_DIR.mkdir(parents=True, exist_ok=True)
+
+    # Получаем текущую дату и время для названия файла
+    current_time = datetime.now()
+    file_name = current_time.strftime('report_%Y%m%d_%H%M%S_%f.txt')
+
+    # Формируем полный путь к файлу
+    file_path = RESULTS_DIR / file_name
+
+    # Формируем содержимое отчёта
+    report = []
+
+    report.append(f'Дата и время запроса: {current_time.strftime("%d.%m.%Y %H:%M:%S")}')
+    report.append('')
+    report.append('ПАРАМЕТРЫ ЗАПРОСА:')
+    report.append('-' * 55)
+
+    # Добавляем информацию о запросе
+    for item in query_info:
+        report.append(item)
+
+    report.append('')
+    report.append('РЕЗУЛЬТАТЫ:')
+    report.append('-' * 55)
+    report.append(f'Количество найденных операций: {len(transactions)}')
+    report.append('')
+
+    # Добавляем найденные операции
+    if transactions:
+        for transaction in transactions:
+            report.append(format_transaction(transaction))
+            report.append('')
+    else:
+        report.append('Не найдено ни одной транзакции, подходящей под условия фильтрации')
+
+    # Записываем отчёт в файл
+    with open(file_path, 'w', encoding='utf-8') as file:
+        file.write('\n'.join(report))
+
+    return file_path
+
+
+
 def main():
     """Главная функция приложения"""
 
@@ -120,18 +172,21 @@ def main():
             file_path = DATA_DIR / 'operations.json'
             transactions = read_operations(file_path)
             print('Для обработки выбран JSON-файл')
+            source_name = 'JSON (operations.json)'
             break
 
         elif file_choice == '2':
             file_path = DATA_DIR / 'transactions.csv'
             transactions = read_csv_transactions(file_path)
             print('Для обработки выбран CSV-файл')
+            source_name = 'CSV (transactions.csv)'
             break
 
         elif file_choice == '3':
             file_path = DATA_DIR / 'transactions_excel.xlsx'
             transactions = read_excel_transactions(file_path)
             print('Для обработки выбран XLSX-файл')
+            source_name = 'XLSX (transactions_excel.xlsx)'
             break
 
         else:
@@ -140,6 +195,14 @@ def main():
     if not transactions:
         print('Не удалось загрузить операции, или файл пуст')
         return
+
+
+    # Создаём список для сохранения параметров запроса
+    query_info = []
+
+    # Записываем источник данных
+    query_info.append(f'Источник данных: {source_name}')
+
 
     # Фильтрация по статусу
     print('\nВведите статус, по которому необходимо выполнить фильтрацию: ')
@@ -162,32 +225,57 @@ def main():
         else:
             print('Неверный выбор. Попробуйте ещё раз')
 
+
+    # Записываем выбранный статус в параметры запроса
+    query_info.append(f'Статус операций: {status}')
+
+
     # Фильтруем операции по статусу
     transactions = filter_by_state(transactions, status)
 
     # Сортировка по дате, пользуемся функцией Ответов Да или Нет. Если Да, то дальнейшие условия
     if get_yes_no('\nОтсортировать операции по дате? '):
-        reverse = get_yes_no('Сначала показывать новые операции? (отфильтровать по-убыванию) ')
+        reverse = get_yes_no('Сначала показывать новые операции? ')
+
         transactions = sort_by_date(transactions, reverse=reverse)
 
-    # Фильтрация по валюте
-    if get_yes_no('\nВыводить только рублёвые операции? '):
-        transactions = filter_transactions_by_currency(transactions, 'RUB')
+        if reverse:
+            query_info.append('Сортировка: по убыванию даты (сначала новые)')
+        else:
+            query_info.append('Сортировка: по возрастанию даты (сначала старые)')
 
-    # Поиск по описанию
-    if get_yes_no('\nИскать операции по описанию? '):
+    else:
+        query_info.append('Сортировка: не выполнялась')
+
+        # Фильтрация по валюте
+    if get_yes_no('Выводить только рублёвые операции? '):
+        transactions = filter_transactions_by_currency(transactions, 'RUB')
+        query_info.append('Фильтрация по валюте: только RUB')
+    else:
+        query_info.append('Фильтрация по валюте: не выполнялась')
+
+        # Поиск по описанию
+    if get_yes_no('Искать операции по описанию? '):
         search_word = input('Введите слово или фразу для поиска: ').strip()
 
         if search_word:
             transactions = process_bank_search(transactions, search_word)
+            query_info.append(f'Поиск по описанию: "{search_word}"')
         else:
             print('Поисковая строка пустая. Поиск выполнен не будет')
+            query_info.append('Поиск по описанию: не выполнялся (пустой запрос)')
+    else:
+        query_info.append('Поиск по описанию: не выполнялся')
 
-    # Вывод результата
+        # Вывод результата
     print('\nРаспечатываю итоговый список транзакций...')
+
+    # Сохраняем результаты обработки в отдельный файл
+    result_file = save_results(transactions, query_info)
 
     if not transactions:
         print('Не найдено ни одной транзакции, подходящей под ваши условия фильтрации')
+        print(f'Отчёт сохранён: {result_file}')
         return
 
     print(f'\nВсего банковских операций: {len(transactions)}\n')
@@ -195,6 +283,10 @@ def main():
     for transaction in transactions:
         print(format_transaction(transaction))
         print()
+
+    # Выводим путь к сохранённому отчёту
+    print(f'Отчёт сохранён: {result_file}')
+
 
 
 if __name__ == '__main__':

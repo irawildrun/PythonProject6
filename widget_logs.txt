@@ -2257,3 +2257,953 @@ Args: ('Visa 3673180759636903',), Kwargs: {}
 Time taken: 0.000740 seconds
 Result: Visa 3673 18** **** 6903
 
+mask_account_card ok
+Args: ('American Express 5313948287096164',), Kwargs: {}
+Time taken: 0.001828 seconds
+Result: American Express 5313 94** **** 6164
+
+mask_account_card ok
+Args: ('Discover 0329774489991288',), Kwargs: {}
+Time taken: 0.000834 seconds
+Result: Discover 0329 77** **** 1288
+
+mask_account_card ok
+Args: ('Mastercard 4205969069978141',), Kwargs: {}
+Time taken: 0.001092 seconds
+Result: Mastercard 4205 96** **** 8141
+
+mask_account_card ok
+Args: ('Mastercard 3182665825206884',), Kwargs: {}
+Time taken: 0.000799 seconds
+Result: Mastercard 3182 66** **** 6884
+
+mask_account_card ok
+Args: ('Mastercard 3093124722348405',), Kwargs: {}
+Time taken: 0.000812 seconds
+Result: Mastercard 3093 12** **** 8405
+
+mask_account_card ok
+Args: ('American Express 6950002720800411',), Kwargs: {}
+Time taken: 0.000763 seconds
+Result: American Express 6950 00** **** 0411
+
+mask_account_card ok
+Args: ('Счет 01411847038697732472',), Kwargs: {}
+Time taken: 0.000894 seconds
+Result: Счет **2472
+
+mask_account_card ok
+Args: ('Счет 67457374082601064845',), Kwargs: {}
+Time taken: 0.001390 seconds
+Result: Счет **4845
+
+mask_account_card ok
+Args: ('Счет 57132829784776201423',), Kwargs: {}
+Time taken: 0.000727 seconds
+Result: Счет **1423
+
+mask_account_card ok
+Args: ('Счет 95605694496875862934',), Kwargs: {}
+Time taken: 0.000783 seconds
+Result: Счет **2934
+
+mask_account_card ok
+Args: ('Mastercard 9458117363112215',), Kwargs: {}
+Time taken: 0.000777 seconds
+Result: Mastercard 9458 11** **** 2215
+
+mask_account_card ok
+Args: ('Visa 6335859532296628',), Kwargs: {}
+Time taken: 0.000794 seconds
+Result: Visa 6335 85** **** 6628
+
+mask_account_card ok
+Args: ('American Express 6902837737884644',), Kwargs: {}
+Time taken: 0.000748 seconds
+Result: American Express 6902 83** **** 4644
+
+mask_account_card ok
+Args: ('American Express 1368443024115273',), Kwargs: {}
+Time taken: 0.000569 seconds
+Result: American Express 1368 44** **** 5273
+
+mask_account_card ok
+Args: ('Mastercard 8924432019137202',), Kwargs: {}
+Time taken: 0.001222 seconds
+Result: Mastercard 8924 43** **** 7202
+
+mask_account_card ok
+Args: ('Visa 5653663363322651',), Kwargs: {}
+Time taken: 0.000802 seconds
+Result: Visa 5653 66** **** 2651
+
+mask_account_card ok
+Args: ('Discover 2343953148883158',), Kwargs: {}
+Time taken: 0.000911 seconds
+Result: Discover 2343 95** **** 3158
+
+mask_account_card ok
+Args: ('American Express 8400869379923599',), Kwargs: {}
+Time taken: 0.000715 seconds
+Result: American Express 8400 86** **** 3599
+
+mask_account_card ok
+Args: ('American Express 0134021618597734',), Kwargs: {}
+Time taken: 0.000550 seconds
+Result: American Express 0134 02** **** 7734
+
+mask_account_card ok
+Args: ('Mastercard 7974416741612242',), Kwargs: {}
+Time taken: 0.000660 seconds
+Result: Mastercard 7974 41** **** 2242
+
+mask_account_card ok
+Args: ('Visa 3723527446109611',), Kwargs: {}
+Time taken: 0.000481 seconds
+Result: Visa 3723 52** **** 9611
+
+mask_account_card ok
+Args: ('American Express 4201111974501655',), Kwargs: {}
+Time taken: 0.000599 seconds
+Result: American Express 4201 11** **** 1655
+
+mask_account_card ok
+Args: ('Visa 1563074999448104',), Kwargs: {}
+Time taken: 0.000497 seconds
+Result: Visa 1563 07** **** 8104
+
+mask_account_card ok
+Args: ('Visa 6133882980108564',), Kwargs: {}
+Time taken: 0.000813 seconds
+Result: Visa 6133 88** **** 8564
+
+mask_account_card ok
+Args: ('Счет 36880956803774247605',), Kwargs: {}
+Time taken: 0.000728 seconds
+Result: Счет **7605
+
+mask_account_card ok
+Args: ('Счет 57967135740972430525',), Kwargs: {}
+Time taken: 0.000972 seconds
+Result: Счет **0525
+
+mask_account_card ok
+Args: ('American Express 9171903868456946',), Kwargs: {}
+Time taken: 0.000756 seconds
+Result: American Express 9171 90** **** 6946
+
+mask_account_card ok
+Args: ('Visa 1486898442392527',), Kwargs: {}
+Time taken: 0.000728 seconds
+Result: Visa 1486 89** **** 2527
+
+mask_account_card ok
+Args: ('Visa 1399159034596740',), Kwargs: {}
+Time taken: 0.000586 seconds
+Result: Visa 1399 15** **** 6740
+
+mask_account_card ok
+Args: ('Счет 71814990641193663905',), Kwargs: {}
+Time taken: 0.000621 seconds
+Result: Счет **3905
+
+mask_account_card ok
+Args: ('Счет 86244850477007883319',), Kwargs: {}
+Time taken: 0.002740 seconds
+Result: Счет **3319
+
+mask_account_card ok
+Args: ('Счет 81698090448201122541',), Kwargs: {}
+Time taken: 0.000457 seconds
+Result: Счет **2541
+
+mask_account_card ok
+Args: ('Mastercard 0560253835243874',), Kwargs: {}
+Time taken: 0.000585 seconds
+Result: Mastercard 0560 25** **** 3874
+
+mask_account_card ok
+Args: ('Счет 44603300489524463522',), Kwargs: {}
+Time taken: 0.000421 seconds
+Result: Счет **3522
+
+mask_account_card ok
+Args: ('Discover 6574691179829422',), Kwargs: {}
+Time taken: 0.000455 seconds
+Result: Discover 6574 69** **** 9422
+
+mask_account_card ok
+Args: ('Discover 4659403386698758',), Kwargs: {}
+Time taken: 0.000544 seconds
+Result: Discover 4659 40** **** 8758
+
+mask_account_card ok
+Args: ('Visa 9698316448168820',), Kwargs: {}
+Time taken: 0.000423 seconds
+Result: Visa 9698 31** **** 8820
+
+mask_account_card ok
+Args: ('Счет 91507178049597221508',), Kwargs: {}
+Time taken: 0.003946 seconds
+Result: Счет **1508
+
+mask_account_card ok
+Args: ('Mastercard 8817383202472795',), Kwargs: {}
+Time taken: 0.001562 seconds
+Result: Mastercard 8817 38** **** 2795
+
+mask_account_card ok
+Args: ('Discover 3942175254816690',), Kwargs: {}
+Time taken: 0.000962 seconds
+Result: Discover 3942 17** **** 6690
+
+mask_account_card ok
+Args: ('American Express 5289343085624249',), Kwargs: {}
+Time taken: 0.000729 seconds
+Result: American Express 5289 34** **** 4249
+
+mask_account_card ok
+Args: ('Счет 37876144219366357273',), Kwargs: {}
+Time taken: 0.000618 seconds
+Result: Счет **7273
+
+mask_account_card ok
+Args: ('Счет 22246813624466689601',), Kwargs: {}
+Time taken: 0.000505 seconds
+Result: Счет **9601
+
+mask_account_card ok
+Args: ('Счет 60148056083328746527',), Kwargs: {}
+Time taken: 0.000729 seconds
+Result: Счет **6527
+
+mask_account_card ok
+Args: ('Mastercard 4061237171643434',), Kwargs: {}
+Time taken: 0.001022 seconds
+Result: Mastercard 4061 23** **** 3434
+
+mask_account_card ok
+Args: ('Visa 7539829899017635',), Kwargs: {}
+Time taken: 0.000563 seconds
+Result: Visa 7539 82** **** 7635
+
+mask_account_card ok
+Args: ('Mastercard 7725500610751579',), Kwargs: {}
+Time taken: 0.000536 seconds
+Result: Mastercard 7725 50** **** 1579
+
+mask_account_card ok
+Args: ('Discover 8189486607683162',), Kwargs: {}
+Time taken: 0.000924 seconds
+Result: Discover 8189 48** **** 3162
+
+mask_account_card ok
+Args: ('Счет 36602273830151626580',), Kwargs: {}
+Time taken: 0.000682 seconds
+Result: Счет **6580
+
+mask_account_card ok
+Args: ('Счет 61127622361324528517',), Kwargs: {}
+Time taken: 0.000669 seconds
+Result: Счет **8517
+
+mask_account_card ok
+Args: ('Visa 7986449445672194',), Kwargs: {}
+Time taken: 0.000454 seconds
+Result: Visa 7986 44** **** 2194
+
+mask_account_card ok
+Args: ('Visa 8862361645542151',), Kwargs: {}
+Time taken: 0.000384 seconds
+Result: Visa 8862 36** **** 2151
+
+mask_account_card ok
+Args: ('Счет 41878599375303475996',), Kwargs: {}
+Time taken: 0.000494 seconds
+Result: Счет **5996
+
+mask_account_card ok
+Args: ('Visa 0773092093872450',), Kwargs: {}
+Time taken: 0.000408 seconds
+Result: Visa 0773 09** **** 2450
+
+mask_account_card ok
+Args: ('Discover 8602781449570491',), Kwargs: {}
+Time taken: 0.000407 seconds
+Result: Discover 8602 78** **** 0491
+
+mask_account_card ok
+Args: ('Visa 3057946398768198',), Kwargs: {}
+Time taken: 0.000585 seconds
+Result: Visa 3057 94** **** 8198
+
+mask_account_card ok
+Args: ('Discover 4035896941119221',), Kwargs: {}
+Time taken: 0.000583 seconds
+Result: Discover 4035 89** **** 9221
+
+mask_account_card ok
+Args: ('Счет 00001929651993491151',), Kwargs: {}
+Time taken: 0.000514 seconds
+Result: Счет **1151
+
+mask_account_card ok
+Args: ('Счет 94107008805088717279',), Kwargs: {}
+Time taken: 0.000684 seconds
+Result: Счет **7279
+
+mask_account_card ok
+Args: ('Discover 8455447150087314',), Kwargs: {}
+Time taken: 0.000648 seconds
+Result: Discover 8455 44** **** 7314
+
+mask_account_card ok
+Args: ('Счет 70453658863403233739',), Kwargs: {}
+Time taken: 0.000471 seconds
+Result: Счет **3739
+
+mask_account_card ok
+Args: ('Discover 8926691998863176',), Kwargs: {}
+Time taken: 0.000397 seconds
+Result: Discover 8926 69** **** 3176
+
+mask_account_card ok
+Args: ('Discover 9331952063031046',), Kwargs: {}
+Time taken: 0.000571 seconds
+Result: Discover 9331 95** **** 1046
+
+mask_account_card ok
+Args: ('Visa 7657178713716531',), Kwargs: {}
+Time taken: 0.000729 seconds
+Result: Visa 7657 17** **** 6531
+
+mask_account_card ok
+Args: ('Mastercard 5442625865778510',), Kwargs: {}
+Time taken: 0.000546 seconds
+Result: Mastercard 5442 62** **** 8510
+
+mask_account_card ok
+Args: ('Счет 58936710508356884628',), Kwargs: {}
+Time taken: 0.000846 seconds
+Result: Счет **4628
+
+mask_account_card ok
+Args: ('American Express 5313948287096164',), Kwargs: {}
+Time taken: 0.000688 seconds
+Result: American Express 5313 94** **** 6164
+
+mask_account_card ok
+Args: ('Discover 0329774489991288',), Kwargs: {}
+Time taken: 0.000521 seconds
+Result: Discover 0329 77** **** 1288
+
+mask_account_card ok
+Args: ('Mastercard 4205969069978141',), Kwargs: {}
+Time taken: 0.000523 seconds
+Result: Mastercard 4205 96** **** 8141
+
+mask_account_card ok
+Args: ('Mastercard 3182665825206884',), Kwargs: {}
+Time taken: 0.000463 seconds
+Result: Mastercard 3182 66** **** 6884
+
+mask_account_card ok
+Args: ('Mastercard 3093124722348405',), Kwargs: {}
+Time taken: 0.000626 seconds
+Result: Mastercard 3093 12** **** 8405
+
+mask_account_card ok
+Args: ('American Express 6950002720800411',), Kwargs: {}
+Time taken: 0.000605 seconds
+Result: American Express 6950 00** **** 0411
+
+mask_account_card ok
+Args: ('Счет 01411847038697732472',), Kwargs: {}
+Time taken: 0.000525 seconds
+Result: Счет **2472
+
+mask_account_card ok
+Args: ('Счет 67457374082601064845',), Kwargs: {}
+Time taken: 0.000681 seconds
+Result: Счет **4845
+
+mask_account_card ok
+Args: ('Счет 57132829784776201423',), Kwargs: {}
+Time taken: 0.000961 seconds
+Result: Счет **1423
+
+mask_account_card ok
+Args: ('Счет 95605694496875862934',), Kwargs: {}
+Time taken: 0.000538 seconds
+Result: Счет **2934
+
+mask_account_card ok
+Args: ('Mastercard 9458117363112215',), Kwargs: {}
+Time taken: 0.000406 seconds
+Result: Mastercard 9458 11** **** 2215
+
+mask_account_card ok
+Args: ('Visa 6335859532296628',), Kwargs: {}
+Time taken: 0.000412 seconds
+Result: Visa 6335 85** **** 6628
+
+mask_account_card ok
+Args: ('American Express 6902837737884644',), Kwargs: {}
+Time taken: 0.000439 seconds
+Result: American Express 6902 83** **** 4644
+
+mask_account_card ok
+Args: ('American Express 1368443024115273',), Kwargs: {}
+Time taken: 0.000743 seconds
+Result: American Express 1368 44** **** 5273
+
+mask_account_card ok
+Args: ('Mastercard 8924432019137202',), Kwargs: {}
+Time taken: 0.000519 seconds
+Result: Mastercard 8924 43** **** 7202
+
+mask_account_card ok
+Args: ('Visa 5653663363322651',), Kwargs: {}
+Time taken: 0.000520 seconds
+Result: Visa 5653 66** **** 2651
+
+mask_account_card ok
+Args: ('Discover 2343953148883158',), Kwargs: {}
+Time taken: 0.000393 seconds
+Result: Discover 2343 95** **** 3158
+
+mask_account_card ok
+Args: ('American Express 8400869379923599',), Kwargs: {}
+Time taken: 0.000511 seconds
+Result: American Express 8400 86** **** 3599
+
+mask_account_card ok
+Args: ('American Express 0134021618597734',), Kwargs: {}
+Time taken: 0.000440 seconds
+Result: American Express 0134 02** **** 7734
+
+mask_account_card ok
+Args: ('Mastercard 7974416741612242',), Kwargs: {}
+Time taken: 0.000608 seconds
+Result: Mastercard 7974 41** **** 2242
+
+mask_account_card ok
+Args: ('Visa 3723527446109611',), Kwargs: {}
+Time taken: 0.000758 seconds
+Result: Visa 3723 52** **** 9611
+
+mask_account_card ok
+Args: ('American Express 4201111974501655',), Kwargs: {}
+Time taken: 0.000676 seconds
+Result: American Express 4201 11** **** 1655
+
+mask_account_card ok
+Args: ('Visa 1563074999448104',), Kwargs: {}
+Time taken: 0.000655 seconds
+Result: Visa 1563 07** **** 8104
+
+mask_account_card ok
+Args: ('Visa 6133882980108564',), Kwargs: {}
+Time taken: 0.000619 seconds
+Result: Visa 6133 88** **** 8564
+
+mask_account_card ok
+Args: ('Счет 36880956803774247605',), Kwargs: {}
+Time taken: 0.000695 seconds
+Result: Счет **7605
+
+mask_account_card ok
+Args: ('Счет 57967135740972430525',), Kwargs: {}
+Time taken: 0.000873 seconds
+Result: Счет **0525
+
+mask_account_card ok
+Args: ('American Express 9171903868456946',), Kwargs: {}
+Time taken: 0.000615 seconds
+Result: American Express 9171 90** **** 6946
+
+mask_account_card ok
+Args: ('Visa 1486898442392527',), Kwargs: {}
+Time taken: 0.000651 seconds
+Result: Visa 1486 89** **** 2527
+
+mask_account_card ok
+Args: ('Visa 1399159034596740',), Kwargs: {}
+Time taken: 0.000838 seconds
+Result: Visa 1399 15** **** 6740
+
+mask_account_card ok
+Args: ('Счет 71814990641193663905',), Kwargs: {}
+Time taken: 0.000552 seconds
+Result: Счет **3905
+
+mask_account_card ok
+Args: ('Счет 86244850477007883319',), Kwargs: {}
+Time taken: 0.000414 seconds
+Result: Счет **3319
+
+mask_account_card ok
+Args: ('Счет 81698090448201122541',), Kwargs: {}
+Time taken: 0.000496 seconds
+Result: Счет **2541
+
+mask_account_card ok
+Args: ('Mastercard 0560253835243874',), Kwargs: {}
+Time taken: 0.000435 seconds
+Result: Mastercard 0560 25** **** 3874
+
+mask_account_card ok
+Args: ('Счет 44603300489524463522',), Kwargs: {}
+Time taken: 0.000555 seconds
+Result: Счет **3522
+
+mask_account_card ok
+Args: ('Discover 6574691179829422',), Kwargs: {}
+Time taken: 0.000406 seconds
+Result: Discover 6574 69** **** 9422
+
+mask_account_card ok
+Args: ('Discover 4659403386698758',), Kwargs: {}
+Time taken: 0.000650 seconds
+Result: Discover 4659 40** **** 8758
+
+mask_account_card ok
+Args: ('Visa 9698316448168820',), Kwargs: {}
+Time taken: 0.000563 seconds
+Result: Visa 9698 31** **** 8820
+
+mask_account_card ok
+Args: ('Счет 91507178049597221508',), Kwargs: {}
+Time taken: 0.000449 seconds
+Result: Счет **1508
+
+mask_account_card ok
+Args: ('Mastercard 8817383202472795',), Kwargs: {}
+Time taken: 0.000589 seconds
+Result: Mastercard 8817 38** **** 2795
+
+mask_account_card ok
+Args: ('Discover 3942175254816690',), Kwargs: {}
+Time taken: 0.000969 seconds
+Result: Discover 3942 17** **** 6690
+
+mask_account_card ok
+Args: ('American Express 5289343085624249',), Kwargs: {}
+Time taken: 0.000557 seconds
+Result: American Express 5289 34** **** 4249
+
+mask_account_card ok
+Args: ('Счет 37876144219366357273',), Kwargs: {}
+Time taken: 0.000451 seconds
+Result: Счет **7273
+
+mask_account_card ok
+Args: ('Счет 22246813624466689601',), Kwargs: {}
+Time taken: 0.000386 seconds
+Result: Счет **9601
+
+mask_account_card ok
+Args: ('Счет 60148056083328746527',), Kwargs: {}
+Time taken: 0.000406 seconds
+Result: Счет **6527
+
+mask_account_card ok
+Args: ('Mastercard 4061237171643434',), Kwargs: {}
+Time taken: 0.000601 seconds
+Result: Mastercard 4061 23** **** 3434
+
+mask_account_card ok
+Args: ('Visa 7539829899017635',), Kwargs: {}
+Time taken: 0.000404 seconds
+Result: Visa 7539 82** **** 7635
+
+mask_account_card ok
+Args: ('Mastercard 7725500610751579',), Kwargs: {}
+Time taken: 0.000422 seconds
+Result: Mastercard 7725 50** **** 1579
+
+mask_account_card ok
+Args: ('Discover 8189486607683162',), Kwargs: {}
+Time taken: 0.000438 seconds
+Result: Discover 8189 48** **** 3162
+
+mask_account_card ok
+Args: ('Счет 36602273830151626580',), Kwargs: {}
+Time taken: 0.000402 seconds
+Result: Счет **6580
+
+mask_account_card ok
+Args: ('Счет 61127622361324528517',), Kwargs: {}
+Time taken: 0.000572 seconds
+Result: Счет **8517
+
+mask_account_card ok
+Args: ('Visa 7986449445672194',), Kwargs: {}
+Time taken: 0.000470 seconds
+Result: Visa 7986 44** **** 2194
+
+mask_account_card ok
+Args: ('Visa 8862361645542151',), Kwargs: {}
+Time taken: 0.000829 seconds
+Result: Visa 8862 36** **** 2151
+
+mask_account_card ok
+Args: ('Счет 41878599375303475996',), Kwargs: {}
+Time taken: 0.000517 seconds
+Result: Счет **5996
+
+mask_account_card ok
+Args: ('Visa 0773092093872450',), Kwargs: {}
+Time taken: 0.000391 seconds
+Result: Visa 0773 09** **** 2450
+
+mask_account_card ok
+Args: ('Discover 8602781449570491',), Kwargs: {}
+Time taken: 0.000361 seconds
+Result: Discover 8602 78** **** 0491
+
+mask_account_card ok
+Args: ('Visa 3057946398768198',), Kwargs: {}
+Time taken: 0.000435 seconds
+Result: Visa 3057 94** **** 8198
+
+mask_account_card ok
+Args: ('Discover 4035896941119221',), Kwargs: {}
+Time taken: 0.000754 seconds
+Result: Discover 4035 89** **** 9221
+
+mask_account_card ok
+Args: ('Счет 00001929651993491151',), Kwargs: {}
+Time taken: 0.000573 seconds
+Result: Счет **1151
+
+mask_account_card ok
+Args: ('Счет 94107008805088717279',), Kwargs: {}
+Time taken: 0.000758 seconds
+Result: Счет **7279
+
+mask_account_card ok
+Args: ('Discover 8455447150087314',), Kwargs: {}
+Time taken: 0.000501 seconds
+Result: Discover 8455 44** **** 7314
+
+mask_account_card ok
+Args: ('Счет 70453658863403233739',), Kwargs: {}
+Time taken: 0.000536 seconds
+Result: Счет **3739
+
+mask_account_card ok
+Args: ('Discover 8926691998863176',), Kwargs: {}
+Time taken: 0.000440 seconds
+Result: Discover 8926 69** **** 3176
+
+mask_account_card ok
+Args: ('Discover 9331952063031046',), Kwargs: {}
+Time taken: 0.000876 seconds
+Result: Discover 9331 95** **** 1046
+
+mask_account_card ok
+Args: ('Visa 7657178713716531',), Kwargs: {}
+Time taken: 0.000544 seconds
+Result: Visa 7657 17** **** 6531
+
+mask_account_card ok
+Args: ('Mastercard 5442625865778510',), Kwargs: {}
+Time taken: 0.000445 seconds
+Result: Mastercard 5442 62** **** 8510
+
+mask_account_card ok
+Args: ('Счет 58936710508356884628',), Kwargs: {}
+Time taken: 0.000444 seconds
+Result: Счет **4628
+
+mask_account_card ok
+Args: ('MasterCard 1796816785869527',), Kwargs: {}
+Time taken: 0.001675 seconds
+Result: MasterCard 1796 81** **** 9527
+
+mask_account_card ok
+Args: ('Visa Classic 7699855375169288',), Kwargs: {}
+Time taken: 0.000630 seconds
+Result: Visa Classic 7699 85** **** 9288
+
+mask_account_card ok
+Args: ('МИР 8021883699486544',), Kwargs: {}
+Time taken: 0.000763 seconds
+Result: МИР 8021 88** **** 6544
+
+mask_account_card ok
+Args: ('Visa Gold 8702717057933248',), Kwargs: {}
+Time taken: 0.000721 seconds
+Result: Visa Gold 8702 71** **** 3248
+
+mask_account_card ok
+Args: ('Счет 90417871337969064865',), Kwargs: {}
+Time taken: 0.000806 seconds
+Result: Счет **4865
+
+mask_account_card ok
+Args: ('Visa Classic 4610247282706784',), Kwargs: {}
+Time taken: 0.000951 seconds
+Result: Visa Classic 4610 24** **** 6784
+
+mask_account_card ok
+Args: ('Счет 63229171188548882700',), Kwargs: {}
+Time taken: 0.000889 seconds
+Result: Счет **2700
+
+mask_account_card ok
+Args: ('Visa Platinum 2241653116508487',), Kwargs: {}
+Time taken: 0.000726 seconds
+Result: Visa Platinum 2241 65** **** 8487
+
+mask_account_card ok
+Args: ('Счет 26494285169417058486',), Kwargs: {}
+Time taken: 0.000646 seconds
+Result: Счет **8486
+
+mask_account_card ok
+Args: ('Счет 71687416928274675290',), Kwargs: {}
+Time taken: 0.000598 seconds
+Result: Счет **5290
+
+mask_account_card ok
+Args: ('Счет 87448526688763159781',), Kwargs: {}
+Time taken: 0.000824 seconds
+Result: Счет **9781
+
+mask_account_card ok
+Args: ('Visa Gold 7305799447374042',), Kwargs: {}
+Time taken: 0.000871 seconds
+Result: Visa Gold 7305 79** **** 4042
+
+mask_account_card ok
+Args: ('Maestro 3364923093037194',), Kwargs: {}
+Time taken: 0.000759 seconds
+Result: Maestro 3364 92** **** 7194
+
+mask_account_card ok
+Args: ('Maestro 3928549031574026',), Kwargs: {}
+Time taken: 0.000687 seconds
+Result: Maestro 3928 54** **** 4026
+
+mask_account_card ok
+Args: ('Счет 84163357546688983493',), Kwargs: {}
+Time taken: 0.000787 seconds
+Result: Счет **3493
+
+mask_account_card ok
+Args: ('Visa Gold 6527183396477720',), Kwargs: {}
+Time taken: 0.000705 seconds
+Result: Visa Gold 6527 18** **** 7720
+
+mask_account_card ok
+Args: ('Счет 38573816654581789611',), Kwargs: {}
+Time taken: 0.000495 seconds
+Result: Счет **9611
+
+mask_account_card ok
+Args: ('Visa Platinum 1246377376343588',), Kwargs: {}
+Time taken: 0.000551 seconds
+Result: Visa Platinum 1246 37** **** 3588
+
+mask_account_card ok
+Args: ('Счет 14211924144426031657',), Kwargs: {}
+Time taken: 0.000872 seconds
+Result: Счет **1657
+
+mask_account_card ok
+Args: ('Maestro 1913883747791351',), Kwargs: {}
+Time taken: 0.000612 seconds
+Result: Maestro 1913 88** **** 1351
+
+mask_account_card ok
+Args: ('Счет 11492155674319392427',), Kwargs: {}
+Time taken: 0.000478 seconds
+Result: Счет **2427
+
+mask_account_card ok
+Args: ('Visa Gold 9657499677062945',), Kwargs: {}
+Time taken: 0.000610 seconds
+Result: Visa Gold 9657 49** **** 2945
+
+mask_account_card ok
+Args: ('Счет 19213886662094884261',), Kwargs: {}
+Time taken: 0.000755 seconds
+Result: Счет **4261
+
+mask_account_card ok
+Args: ('МИР 6381702861749111',), Kwargs: {}
+Time taken: 0.000949 seconds
+Result: МИР 6381 70** **** 9111
+
+mask_account_card ok
+Args: ('Счет 27804394774631586026',), Kwargs: {}
+Time taken: 0.000663 seconds
+Result: Счет **6026
+
+mask_account_card ok
+Args: ('Maestro 7552745726849311',), Kwargs: {}
+Time taken: 0.000743 seconds
+Result: Maestro 7552 74** **** 9311
+
+mask_account_card ok
+Args: ('Счет 34799481846914116850',), Kwargs: {}
+Time taken: 0.000669 seconds
+Result: Счет **6850
+
+mask_account_card ok
+Args: ('Счет 33355011456314142963',), Kwargs: {}
+Time taken: 0.000785 seconds
+Result: Счет **2963
+
+mask_account_card ok
+Args: ('Счет 45735917297559088682',), Kwargs: {}
+Time taken: 0.000523 seconds
+Result: Счет **8682
+
+mask_account_card ok
+Args: ('MasterCard 1796816785869527',), Kwargs: {}
+Time taken: 0.000564 seconds
+Result: MasterCard 1796 81** **** 9527
+
+mask_account_card ok
+Args: ('Visa Classic 7699855375169288',), Kwargs: {}
+Time taken: 0.000608 seconds
+Result: Visa Classic 7699 85** **** 9288
+
+mask_account_card ok
+Args: ('МИР 8021883699486544',), Kwargs: {}
+Time taken: 0.000964 seconds
+Result: МИР 8021 88** **** 6544
+
+mask_account_card ok
+Args: ('Visa Gold 8702717057933248',), Kwargs: {}
+Time taken: 0.000713 seconds
+Result: Visa Gold 8702 71** **** 3248
+
+mask_account_card ok
+Args: ('Счет 90417871337969064865',), Kwargs: {}
+Time taken: 0.000809 seconds
+Result: Счет **4865
+
+mask_account_card ok
+Args: ('Visa Classic 4610247282706784',), Kwargs: {}
+Time taken: 0.000589 seconds
+Result: Visa Classic 4610 24** **** 6784
+
+mask_account_card ok
+Args: ('Счет 63229171188548882700',), Kwargs: {}
+Time taken: 0.000804 seconds
+Result: Счет **2700
+
+mask_account_card ok
+Args: ('Visa Platinum 2241653116508487',), Kwargs: {}
+Time taken: 0.000622 seconds
+Result: Visa Platinum 2241 65** **** 8487
+
+mask_account_card ok
+Args: ('Счет 26494285169417058486',), Kwargs: {}
+Time taken: 0.000539 seconds
+Result: Счет **8486
+
+mask_account_card ok
+Args: ('Счет 71687416928274675290',), Kwargs: {}
+Time taken: 0.000629 seconds
+Result: Счет **5290
+
+mask_account_card ok
+Args: ('Счет 87448526688763159781',), Kwargs: {}
+Time taken: 0.001344 seconds
+Result: Счет **9781
+
+mask_account_card ok
+Args: ('Visa Gold 7305799447374042',), Kwargs: {}
+Time taken: 0.000545 seconds
+Result: Visa Gold 7305 79** **** 4042
+
+mask_account_card ok
+Args: ('Maestro 3364923093037194',), Kwargs: {}
+Time taken: 0.000494 seconds
+Result: Maestro 3364 92** **** 7194
+
+mask_account_card ok
+Args: ('Maestro 3928549031574026',), Kwargs: {}
+Time taken: 0.000614 seconds
+Result: Maestro 3928 54** **** 4026
+
+mask_account_card ok
+Args: ('Счет 84163357546688983493',), Kwargs: {}
+Time taken: 0.000591 seconds
+Result: Счет **3493
+
+mask_account_card ok
+Args: ('Visa Gold 6527183396477720',), Kwargs: {}
+Time taken: 0.000619 seconds
+Result: Visa Gold 6527 18** **** 7720
+
+mask_account_card ok
+Args: ('Счет 38573816654581789611',), Kwargs: {}
+Time taken: 0.000747 seconds
+Result: Счет **9611
+
+mask_account_card ok
+Args: ('Visa Platinum 1246377376343588',), Kwargs: {}
+Time taken: 0.000532 seconds
+Result: Visa Platinum 1246 37** **** 3588
+
+mask_account_card ok
+Args: ('Счет 14211924144426031657',), Kwargs: {}
+Time taken: 0.000831 seconds
+Result: Счет **1657
+
+mask_account_card ok
+Args: ('Maestro 1913883747791351',), Kwargs: {}
+Time taken: 0.001307 seconds
+Result: Maestro 1913 88** **** 1351
+
+mask_account_card ok
+Args: ('Счет 11492155674319392427',), Kwargs: {}
+Time taken: 0.000934 seconds
+Result: Счет **2427
+
+mask_account_card ok
+Args: ('Visa Gold 9657499677062945',), Kwargs: {}
+Time taken: 0.000713 seconds
+Result: Visa Gold 9657 49** **** 2945
+
+mask_account_card ok
+Args: ('Счет 19213886662094884261',), Kwargs: {}
+Time taken: 0.000647 seconds
+Result: Счет **4261
+
+mask_account_card ok
+Args: ('МИР 6381702861749111',), Kwargs: {}
+Time taken: 0.000794 seconds
+Result: МИР 6381 70** **** 9111
+
+mask_account_card ok
+Args: ('Счет 27804394774631586026',), Kwargs: {}
+Time taken: 0.001055 seconds
+Result: Счет **6026
+
+mask_account_card ok
+Args: ('Maestro 7552745726849311',), Kwargs: {}
+Time taken: 0.000647 seconds
+Result: Maestro 7552 74** **** 9311
+
+mask_account_card ok
+Args: ('Счет 34799481846914116850',), Kwargs: {}
+Time taken: 0.000400 seconds
+Result: Счет **6850
+
+mask_account_card ok
+Args: ('Счет 33355011456314142963',), Kwargs: {}
+Time taken: 0.000552 seconds
+Result: Счет **2963
+
+mask_account_card ok
+Args: ('Счет 45735917297559088682',), Kwargs: {}
+Time taken: 0.000730 seconds
+Result: Счет **8682
+
