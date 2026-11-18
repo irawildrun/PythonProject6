@@ -120,3 +120,2198 @@ Args: ('1111',), Kwargs: {}
 Time taken: 0.000209 seconds
 Result: **1111
 
+get_mask_card_number ok
+Args: ('2842878893689012',), Kwargs: {}
+Time taken: 0.000817 seconds
+Result: 2842 87** **** 9012
+
+get_mask_account ok
+Args: ('35158586384610753655',), Kwargs: {}
+Time taken: 0.000413 seconds
+Result: **3655
+
+get_mask_card_number ok
+Args: ('7810846596785568',), Kwargs: {}
+Time taken: 0.000308 seconds
+Result: 7810 84** **** 5568
+
+get_mask_account ok
+Args: ('43241152692663622869',), Kwargs: {}
+Time taken: 0.000350 seconds
+Result: **2869
+
+get_mask_account ok
+Args: ('38611439522855669794',), Kwargs: {}
+Time taken: 0.000353 seconds
+Result: **9794
+
+get_mask_account ok
+Args: ('46765464282437878125',), Kwargs: {}
+Time taken: 0.000915 seconds
+Result: **8125
+
+get_mask_card_number ok
+Args: ('7756673469642839',), Kwargs: {}
+Time taken: 0.000430 seconds
+Result: 7756 67** **** 2839
+
+get_mask_account ok
+Args: ('48943806953649539453',), Kwargs: {}
+Time taken: 0.000261 seconds
+Result: **9453
+
+get_mask_account ok
+Args: ('35421428450077339637',), Kwargs: {}
+Time taken: 0.000190 seconds
+Result: **9637
+
+get_mask_account ok
+Args: ('46723050671868944961',), Kwargs: {}
+Time taken: 0.000270 seconds
+Result: **4961
+
+get_mask_account ok
+Args: ('24763316288121894080',), Kwargs: {}
+Time taken: 0.000186 seconds
+Result: **4080
+
+get_mask_account ok
+Args: ('96291777776753236930',), Kwargs: {}
+Time taken: 0.000257 seconds
+Result: **6930
+
+get_mask_card_number ok
+Args: ('4284341727554246',), Kwargs: {}
+Time taken: 0.000221 seconds
+Result: 4284 34** **** 4246
+
+get_mask_card_number ok
+Args: ('1582474475547301',), Kwargs: {}
+Time taken: 0.000210 seconds
+Result: 1582 47** **** 7301
+
+get_mask_card_number ok
+Args: ('3654412434951162',), Kwargs: {}
+Time taken: 0.000209 seconds
+Result: 3654 41** **** 1162
+
+get_mask_account ok
+Args: ('59986621134048778289',), Kwargs: {}
+Time taken: 0.000211 seconds
+Result: **8289
+
+get_mask_card_number ok
+Args: ('1596837868705199',), Kwargs: {}
+Time taken: 0.000145 seconds
+Result: 1596 83** **** 5199
+
+get_mask_account ok
+Args: ('64686473678894779589',), Kwargs: {}
+Time taken: 0.000226 seconds
+Result: **9589
+
+get_mask_account ok
+Args: ('17691325653939384901',), Kwargs: {}
+Time taken: 0.000189 seconds
+Result: **4901
+
+get_mask_account ok
+Args: ('49304996510329747621',), Kwargs: {}
+Time taken: 0.000201 seconds
+Result: **7621
+
+get_mask_card_number ok
+Args: ('8826230888662405',), Kwargs: {}
+Time taken: 0.000271 seconds
+Result: 8826 23** **** 2405
+
+get_mask_account ok
+Args: ('96119739109420349721',), Kwargs: {}
+Time taken: 0.000192 seconds
+Result: **9721
+
+get_mask_account ok
+Args: ('65298957349197687907',), Kwargs: {}
+Time taken: 0.000208 seconds
+Result: **7907
+
+get_mask_account ok
+Args: ('38784565940893479418',), Kwargs: {}
+Time taken: 0.000228 seconds
+Result: **9418
+
+get_mask_account ok
+Args: ('99668626339273709694',), Kwargs: {}
+Time taken: 0.000159 seconds
+Result: **9694
+
+get_mask_account ok
+Args: ('27219929444683698245',), Kwargs: {}
+Time taken: 0.000155 seconds
+Result: **8245
+
+get_mask_account ok
+Args: ('33721541831646393763',), Kwargs: {}
+Time taken: 0.000315 seconds
+Result: **3763
+
+get_mask_account ok
+Args: ('68774571780974952778',), Kwargs: {}
+Time taken: 0.000206 seconds
+Result: **2778
+
+get_mask_card_number ok
+Args: ('6942697754917688',), Kwargs: {}
+Time taken: 0.000198 seconds
+Result: 6942 69** **** 7688
+
+get_mask_card_number ok
+Args: ('2956603572573342',), Kwargs: {}
+Time taken: 0.000175 seconds
+Result: 2956 60** **** 3342
+
+get_mask_card_number ok
+Args: ('1308795367077170',), Kwargs: {}
+Time taken: 0.000113 seconds
+Result: 1308 79** **** 7170
+
+get_mask_account ok
+Args: ('96527012349577388612',), Kwargs: {}
+Time taken: 0.000204 seconds
+Result: **8612
+
+get_mask_account ok
+Args: ('48894435694657014368',), Kwargs: {}
+Time taken: 0.000140 seconds
+Result: **4368
+
+get_mask_account ok
+Args: ('38976430693692818358',), Kwargs: {}
+Time taken: 0.000179 seconds
+Result: **8358
+
+get_mask_card_number ok
+Args: ('3589276410671603',), Kwargs: {}
+Time taken: 0.000124 seconds
+Result: 3589 27** **** 1603
+
+get_mask_account ok
+Args: ('96292138399386853355',), Kwargs: {}
+Time taken: 0.000126 seconds
+Result: **3355
+
+get_mask_account ok
+Args: ('38427597486442637521',), Kwargs: {}
+Time taken: 0.000118 seconds
+Result: **7521
+
+get_mask_account ok
+Args: ('83889757415570699323',), Kwargs: {}
+Time taken: 0.000151 seconds
+Result: **9323
+
+get_mask_card_number ok
+Args: ('7158300734726758',), Kwargs: {}
+Time taken: 0.000119 seconds
+Result: 7158 30** **** 6758
+
+get_mask_account ok
+Args: ('35383033474447895560',), Kwargs: {}
+Time taken: 0.000168 seconds
+Result: **5560
+
+get_mask_account ok
+Args: ('59956820797131895975',), Kwargs: {}
+Time taken: 0.000115 seconds
+Result: **5975
+
+get_mask_account ok
+Args: ('43475624104328495820',), Kwargs: {}
+Time taken: 0.000119 seconds
+Result: **5820
+
+get_mask_card_number ok
+Args: ('8990850370884895',), Kwargs: {}
+Time taken: 0.000153 seconds
+Result: 8990 85** **** 4895
+
+get_mask_account ok
+Args: ('15574304810835774010',), Kwargs: {}
+Time taken: 0.000141 seconds
+Result: **4010
+
+get_mask_account ok
+Args: ('73222753239048295679',), Kwargs: {}
+Time taken: 0.000107 seconds
+Result: **5679
+
+get_mask_account ok
+Args: ('78544755774551298747',), Kwargs: {}
+Time taken: 0.000147 seconds
+Result: **8747
+
+get_mask_card_number ok
+Args: ('8201420097886664',), Kwargs: {}
+Time taken: 0.000174 seconds
+Result: 8201 42** **** 6664
+
+get_mask_account ok
+Args: ('35116633516390079956',), Kwargs: {}
+Time taken: 0.000180 seconds
+Result: **9956
+
+get_mask_card_number ok
+Args: ('5211277418228469',), Kwargs: {}
+Time taken: 0.000158 seconds
+Result: 5211 27** **** 8469
+
+get_mask_account ok
+Args: ('58518872592028002662',), Kwargs: {}
+Time taken: 0.000245 seconds
+Result: **2662
+
+get_mask_card_number ok
+Args: ('4878656375033856',), Kwargs: {}
+Time taken: 0.000156 seconds
+Result: 4878 65** **** 3856
+
+get_mask_card_number ok
+Args: ('6890749237669619',), Kwargs: {}
+Time taken: 0.000206 seconds
+Result: 6890 74** **** 9619
+
+get_mask_account ok
+Args: ('27921306202254867520',), Kwargs: {}
+Time taken: 0.000164 seconds
+Result: **7520
+
+get_mask_account ok
+Args: ('49884962711830774470',), Kwargs: {}
+Time taken: 0.000134 seconds
+Result: **4470
+
+get_mask_card_number ok
+Args: ('9171987821259925',), Kwargs: {}
+Time taken: 0.000157 seconds
+Result: 9171 98** **** 9925
+
+get_mask_card_number ok
+Args: ('2052809263194182',), Kwargs: {}
+Time taken: 0.000137 seconds
+Result: 2052 80** **** 4182
+
+get_mask_account ok
+Args: ('73654108430135874305',), Kwargs: {}
+Time taken: 0.000128 seconds
+Result: **4305
+
+get_mask_account ok
+Args: ('89685546118890842412',), Kwargs: {}
+Time taken: 0.000110 seconds
+Result: **2412
+
+get_mask_card_number ok
+Args: ('8193813157568899',), Kwargs: {}
+Time taken: 0.000119 seconds
+Result: 8193 81** **** 8899
+
+get_mask_card_number ok
+Args: ('9425591958944146',), Kwargs: {}
+Time taken: 0.000154 seconds
+Result: 9425 59** **** 4146
+
+get_mask_account ok
+Args: ('19708645243227258542',), Kwargs: {}
+Time taken: 0.000108 seconds
+Result: **8542
+
+get_mask_account ok
+Args: ('75651667383060284188',), Kwargs: {}
+Time taken: 0.000147 seconds
+Result: **4188
+
+get_mask_card_number ok
+Args: ('1203921041964079',), Kwargs: {}
+Time taken: 0.000122 seconds
+Result: 1203 92** **** 4079
+
+get_mask_account ok
+Args: ('34616199494072692721',), Kwargs: {}
+Time taken: 0.000104 seconds
+Result: **2721
+
+get_mask_account ok
+Args: ('44812258784861134719',), Kwargs: {}
+Time taken: 0.000090 seconds
+Result: **4719
+
+get_mask_account ok
+Args: ('74489636417521191160',), Kwargs: {}
+Time taken: 0.000158 seconds
+Result: **1160
+
+get_mask_card_number ok
+Args: ('6319351940209800',), Kwargs: {}
+Time taken: 0.000147 seconds
+Result: 6319 35** **** 9800
+
+get_mask_account ok
+Args: ('14073196441261107791',), Kwargs: {}
+Time taken: 0.000120 seconds
+Result: **7791
+
+get_mask_card_number ok
+Args: ('8847384717023026',), Kwargs: {}
+Time taken: 0.000167 seconds
+Result: 8847 38** **** 3026
+
+get_mask_account ok
+Args: ('85458008326755993377',), Kwargs: {}
+Time taken: 0.000162 seconds
+Result: **3377
+
+get_mask_card_number ok
+Args: ('6216537926639975',), Kwargs: {}
+Time taken: 0.000239 seconds
+Result: 6216 53** **** 9975
+
+get_mask_account ok
+Args: ('67667879435628279708',), Kwargs: {}
+Time taken: 0.000127 seconds
+Result: **9708
+
+get_mask_account ok
+Args: ('72645194281643232984',), Kwargs: {}
+Time taken: 0.000098 seconds
+Result: **2984
+
+get_mask_account ok
+Args: ('95782287258966264115',), Kwargs: {}
+Time taken: 0.000136 seconds
+Result: **4115
+
+get_mask_account ok
+Args: ('28429442875257789335',), Kwargs: {}
+Time taken: 0.000146 seconds
+Result: **9335
+
+get_mask_account ok
+Args: ('95473010446151855633',), Kwargs: {}
+Time taken: 0.000152 seconds
+Result: **5633
+
+get_mask_account ok
+Args: ('46363668439560358409',), Kwargs: {}
+Time taken: 0.000155 seconds
+Result: **8409
+
+get_mask_account ok
+Args: ('18889008294666828266',), Kwargs: {}
+Time taken: 0.000177 seconds
+Result: **8266
+
+get_mask_account ok
+Args: ('77977573135347241529',), Kwargs: {}
+Time taken: 0.000157 seconds
+Result: **1529
+
+get_mask_account ok
+Args: ('33062909508148771891',), Kwargs: {}
+Time taken: 0.000164 seconds
+Result: **1891
+
+get_mask_card_number ok
+Args: ('8665240839126074',), Kwargs: {}
+Time taken: 0.000118 seconds
+Result: 8665 24** **** 6074
+
+get_mask_card_number ok
+Args: ('3000704277834087',), Kwargs: {}
+Time taken: 0.000183 seconds
+Result: 3000 70** **** 4087
+
+get_mask_card_number ok
+Args: ('8326537236216459',), Kwargs: {}
+Time taken: 0.000137 seconds
+Result: 8326 53** **** 6459
+
+get_mask_card_number ok
+Args: ('6783917276771847',), Kwargs: {}
+Time taken: 0.000171 seconds
+Result: 6783 91** **** 1847
+
+get_mask_account ok
+Args: ('10848359769870775355',), Kwargs: {}
+Time taken: 0.000225 seconds
+Result: **5355
+
+get_mask_account ok
+Args: ('21969751544412966366',), Kwargs: {}
+Time taken: 0.000145 seconds
+Result: **6366
+
+get_mask_account ok
+Args: ('86675623828180311969',), Kwargs: {}
+Time taken: 0.000108 seconds
+Result: **1969
+
+get_mask_account ok
+Args: ('15351391408911677994',), Kwargs: {}
+Time taken: 0.000127 seconds
+Result: **7994
+
+get_mask_card_number ok
+Args: ('3152479541115065',), Kwargs: {}
+Time taken: 0.000177 seconds
+Result: 3152 47** **** 5065
+
+get_mask_card_number ok
+Args: ('9447344650495960',), Kwargs: {}
+Time taken: 0.000120 seconds
+Result: 9447 34** **** 5960
+
+get_mask_card_number ok
+Args: ('5355133159258236',), Kwargs: {}
+Time taken: 0.000110 seconds
+Result: 5355 13** **** 8236
+
+get_mask_card_number ok
+Args: ('8045769817179061',), Kwargs: {}
+Time taken: 0.000099 seconds
+Result: 8045 76** **** 9061
+
+get_mask_account ok
+Args: ('75743795418434298755',), Kwargs: {}
+Time taken: 0.000103 seconds
+Result: **8755
+
+get_mask_account ok
+Args: ('80785963509390811744',), Kwargs: {}
+Time taken: 0.000107 seconds
+Result: **1744
+
+get_mask_card_number ok
+Args: ('1435442169918409',), Kwargs: {}
+Time taken: 0.000136 seconds
+Result: 1435 44** **** 8409
+
+get_mask_card_number ok
+Args: ('7452400219469235',), Kwargs: {}
+Time taken: 0.000153 seconds
+Result: 7452 40** **** 9235
+
+get_mask_card_number ok
+Args: ('2256483756542539',), Kwargs: {}
+Time taken: 0.000173 seconds
+Result: 2256 48** **** 2539
+
+get_mask_account ok
+Args: ('78808375133947439319',), Kwargs: {}
+Time taken: 0.000190 seconds
+Result: **9319
+
+get_mask_account ok
+Args: ('23177857685058835559',), Kwargs: {}
+Time taken: 0.000124 seconds
+Result: **5559
+
+get_mask_account ok
+Args: ('56363465303962313778',), Kwargs: {}
+Time taken: 0.000125 seconds
+Result: **3778
+
+get_mask_card_number ok
+Args: ('4040551273087672',), Kwargs: {}
+Time taken: 0.000111 seconds
+Result: 4040 55** **** 7672
+
+get_mask_card_number ok
+Args: ('7825450883088021',), Kwargs: {}
+Time taken: 0.000134 seconds
+Result: 7825 45** **** 8021
+
+get_mask_card_number ok
+Args: ('6831982476737658',), Kwargs: {}
+Time taken: 0.000192 seconds
+Result: 6831 98** **** 7658
+
+get_mask_card_number ok
+Args: ('8990922113665229',), Kwargs: {}
+Time taken: 0.000150 seconds
+Result: 8990 92** **** 5229
+
+get_mask_account ok
+Args: ('18125798580985711166',), Kwargs: {}
+Time taken: 0.000135 seconds
+Result: **1166
+
+get_mask_account ok
+Args: ('98841213648056852372',), Kwargs: {}
+Time taken: 0.000178 seconds
+Result: **2372
+
+get_mask_card_number ok
+Args: ('8532498887072395',), Kwargs: {}
+Time taken: 0.000153 seconds
+Result: 8532 49** **** 2395
+
+get_mask_account ok
+Args: ('44238164562083919420',), Kwargs: {}
+Time taken: 0.000150 seconds
+Result: **9420
+
+get_mask_account ok
+Args: ('19628854383215954147',), Kwargs: {}
+Time taken: 0.000196 seconds
+Result: **4147
+
+get_mask_account ok
+Args: ('90887717138446397473',), Kwargs: {}
+Time taken: 0.000133 seconds
+Result: **7473
+
+get_mask_card_number ok
+Args: ('4062745111784804',), Kwargs: {}
+Time taken: 0.000143 seconds
+Result: 4062 74** **** 4804
+
+get_mask_card_number ok
+Args: ('8602249654751155',), Kwargs: {}
+Time taken: 0.000123 seconds
+Result: 8602 24** **** 1155
+
+get_mask_account ok
+Args: ('75106830613657916952',), Kwargs: {}
+Time taken: 0.000102 seconds
+Result: **6952
+
+get_mask_account ok
+Args: ('11776614605963066702',), Kwargs: {}
+Time taken: 0.000118 seconds
+Result: **6702
+
+get_mask_card_number ok
+Args: ('3766446452238784',), Kwargs: {}
+Time taken: 0.000104 seconds
+Result: 3766 44** **** 8784
+
+get_mask_account ok
+Args: ('86655182730188443980',), Kwargs: {}
+Time taken: 0.000088 seconds
+Result: **3980
+
+get_mask_card_number ok
+Args: ('4195191172583802',), Kwargs: {}
+Time taken: 0.000124 seconds
+Result: 4195 19** **** 3802
+
+get_mask_account ok
+Args: ('17066032701791012883',), Kwargs: {}
+Time taken: 0.000125 seconds
+Result: **2883
+
+get_mask_account ok
+Args: ('54883981902864782073',), Kwargs: {}
+Time taken: 0.000110 seconds
+Result: **2073
+
+get_mask_account ok
+Args: ('61834060137088759145',), Kwargs: {}
+Time taken: 0.000137 seconds
+Result: **9145
+
+get_mask_card_number ok
+Args: ('9454780748494532',), Kwargs: {}
+Time taken: 0.000134 seconds
+Result: 9454 78** **** 4532
+
+get_mask_account ok
+Args: ('51958934737718181351',), Kwargs: {}
+Time taken: 0.000239 seconds
+Result: **1351
+
+get_mask_card_number ok
+Args: ('3595832182277400',), Kwargs: {}
+Time taken: 0.000132 seconds
+Result: 3595 83** **** 7400
+
+get_mask_account ok
+Args: ('79697233246085035210',), Kwargs: {}
+Time taken: 0.000143 seconds
+Result: **5210
+
+get_mask_card_number ok
+Args: ('3530191547567121',), Kwargs: {}
+Time taken: 0.000151 seconds
+Result: 3530 19** **** 7121
+
+get_mask_account ok
+Args: ('46878338893256147528',), Kwargs: {}
+Time taken: 0.000136 seconds
+Result: **7528
+
+get_mask_card_number ok
+Args: ('1813166339376336',), Kwargs: {}
+Time taken: 0.000113 seconds
+Result: 1813 16** **** 6336
+
+get_mask_account ok
+Args: ('97848259954268659635',), Kwargs: {}
+Time taken: 0.000103 seconds
+Result: **9635
+
+get_mask_account ok
+Args: ('27248529432547658655',), Kwargs: {}
+Time taken: 0.000117 seconds
+Result: **8655
+
+get_mask_account ok
+Args: ('97584898735659638967',), Kwargs: {}
+Time taken: 0.000136 seconds
+Result: **8967
+
+get_mask_card_number ok
+Args: ('5999414228426353',), Kwargs: {}
+Time taken: 0.000161 seconds
+Result: 5999 41** **** 6353
+
+get_mask_account ok
+Args: ('72731966109147704472',), Kwargs: {}
+Time taken: 0.000111 seconds
+Result: **4472
+
+get_mask_account ok
+Args: ('26406253703545413262',), Kwargs: {}
+Time taken: 0.000138 seconds
+Result: **3262
+
+get_mask_account ok
+Args: ('20735820461482021315',), Kwargs: {}
+Time taken: 0.000119 seconds
+Result: **1315
+
+get_mask_card_number ok
+Args: ('7022985698476865',), Kwargs: {}
+Time taken: 0.000110 seconds
+Result: 7022 98** **** 6865
+
+get_mask_account ok
+Args: ('60979028617970883410',), Kwargs: {}
+Time taken: 0.000122 seconds
+Result: **3410
+
+get_mask_account ok
+Args: ('96008924215040031147',), Kwargs: {}
+Time taken: 0.000129 seconds
+Result: **1147
+
+get_mask_account ok
+Args: ('30377212495530283001',), Kwargs: {}
+Time taken: 0.000103 seconds
+Result: **3001
+
+get_mask_card_number ok
+Args: ('4956649687637418',), Kwargs: {}
+Time taken: 0.000117 seconds
+Result: 4956 64** **** 7418
+
+get_mask_account ok
+Args: ('90562872508279542248',), Kwargs: {}
+Time taken: 0.000132 seconds
+Result: **2248
+
+get_mask_card_number ok
+Args: ('9175985085449563',), Kwargs: {}
+Time taken: 0.000144 seconds
+Result: 9175 98** **** 9563
+
+get_mask_account ok
+Args: ('82781399328834147668',), Kwargs: {}
+Time taken: 0.000103 seconds
+Result: **7668
+
+get_mask_card_number ok
+Args: ('4047671689373225',), Kwargs: {}
+Time taken: 0.000129 seconds
+Result: 4047 67** **** 3225
+
+get_mask_card_number ok
+Args: ('3806652527413662',), Kwargs: {}
+Time taken: 0.000129 seconds
+Result: 3806 65** **** 3662
+
+get_mask_card_number ok
+Args: ('4598300720424501',), Kwargs: {}
+Time taken: 0.000188 seconds
+Result: 4598 30** **** 4501
+
+get_mask_account ok
+Args: ('43597928997568165086',), Kwargs: {}
+Time taken: 0.000206 seconds
+Result: **5086
+
+get_mask_card_number ok
+Args: ('3414396880443483',), Kwargs: {}
+Time taken: 0.000109 seconds
+Result: 3414 39** **** 3483
+
+get_mask_card_number ok
+Args: ('2684274847577419',), Kwargs: {}
+Time taken: 0.000145 seconds
+Result: 2684 27** **** 7419
+
+get_mask_account ok
+Args: ('33407225454123927865',), Kwargs: {}
+Time taken: 0.000141 seconds
+Result: **7865
+
+get_mask_account ok
+Args: ('79619011266276091215',), Kwargs: {}
+Time taken: 0.000193 seconds
+Result: **1215
+
+get_mask_card_number ok
+Args: ('8906171742833215',), Kwargs: {}
+Time taken: 0.000162 seconds
+Result: 8906 17** **** 3215
+
+get_mask_card_number ok
+Args: ('6086997013848217',), Kwargs: {}
+Time taken: 0.000122 seconds
+Result: 6086 99** **** 8217
+
+get_mask_card_number ok
+Args: ('1495416283887670',), Kwargs: {}
+Time taken: 0.001019 seconds
+Result: 1495 41** **** 7670
+
+get_mask_card_number ok
+Args: ('5120967507423143',), Kwargs: {}
+Time taken: 0.000434 seconds
+Result: 5120 96** **** 3143
+
+get_mask_card_number ok
+Args: ('5867137497562917',), Kwargs: {}
+Time taken: 0.000257 seconds
+Result: 5867 13** **** 2917
+
+get_mask_card_number ok
+Args: ('3332388352371784',), Kwargs: {}
+Time taken: 0.000211 seconds
+Result: 3332 38** **** 1784
+
+get_mask_card_number ok
+Args: ('6505902114235361',), Kwargs: {}
+Time taken: 0.000175 seconds
+Result: 6505 90** **** 5361
+
+get_mask_account ok
+Args: ('35036089776755124501',), Kwargs: {}
+Time taken: 0.000162 seconds
+Result: **4501
+
+get_mask_card_number ok
+Args: ('2510997056903668',), Kwargs: {}
+Time taken: 0.000295 seconds
+Result: 2510 99** **** 3668
+
+get_mask_card_number ok
+Args: ('5176450912871980',), Kwargs: {}
+Time taken: 0.000280 seconds
+Result: 5176 45** **** 1980
+
+get_mask_card_number ok
+Args: ('7004562378757988',), Kwargs: {}
+Time taken: 0.000264 seconds
+Result: 7004 56** **** 7988
+
+get_mask_card_number ok
+Args: ('0825255021365694',), Kwargs: {}
+Time taken: 0.000335 seconds
+Result: 0825 25** **** 5694
+
+get_mask_card_number ok
+Args: ('7575628496748633',), Kwargs: {}
+Time taken: 0.000377 seconds
+Result: 7575 62** **** 8633
+
+get_mask_card_number ok
+Args: ('8201977224219171',), Kwargs: {}
+Time taken: 0.000226 seconds
+Result: 8201 97** **** 9171
+
+get_mask_card_number ok
+Args: ('8555423564337493',), Kwargs: {}
+Time taken: 0.000257 seconds
+Result: 8555 42** **** 7493
+
+get_mask_account ok
+Args: ('80979410926211688985',), Kwargs: {}
+Time taken: 0.000279 seconds
+Result: **8985
+
+get_mask_card_number ok
+Args: ('5309985455135498',), Kwargs: {}
+Time taken: 0.000309 seconds
+Result: 5309 98** **** 5498
+
+get_mask_card_number ok
+Args: ('4613141986927768',), Kwargs: {}
+Time taken: 0.000243 seconds
+Result: 4613 14** **** 7768
+
+get_mask_card_number ok
+Args: ('7673263953329337',), Kwargs: {}
+Time taken: 0.001504 seconds
+Result: 7673 26** **** 9337
+
+get_mask_card_number ok
+Args: ('6961587092605561',), Kwargs: {}
+Time taken: 0.000297 seconds
+Result: 6961 58** **** 5561
+
+get_mask_card_number ok
+Args: ('4597611385572324',), Kwargs: {}
+Time taken: 0.000252 seconds
+Result: 4597 61** **** 2324
+
+get_mask_card_number ok
+Args: ('0264849140954307',), Kwargs: {}
+Time taken: 0.000217 seconds
+Result: 0264 84** **** 4307
+
+get_mask_card_number ok
+Args: ('6644696207526766',), Kwargs: {}
+Time taken: 0.000250 seconds
+Result: 6644 69** **** 6766
+
+get_mask_card_number ok
+Args: ('8548964838326541',), Kwargs: {}
+Time taken: 0.000304 seconds
+Result: 8548 96** **** 6541
+
+get_mask_card_number ok
+Args: ('6219443780959412',), Kwargs: {}
+Time taken: 0.001219 seconds
+Result: 6219 44** **** 9412
+
+get_mask_card_number ok
+Args: ('4786131684105875',), Kwargs: {}
+Time taken: 0.000271 seconds
+Result: 4786 13** **** 5875
+
+get_mask_account ok
+Args: ('42109207415591580635',), Kwargs: {}
+Time taken: 0.000241 seconds
+Result: **0635
+
+get_mask_account ok
+Args: ('74058089109726743250',), Kwargs: {}
+Time taken: 0.000219 seconds
+Result: **3250
+
+get_mask_card_number ok
+Args: ('3984228285377185',), Kwargs: {}
+Time taken: 0.000268 seconds
+Result: 3984 22** **** 7185
+
+get_mask_card_number ok
+Args: ('2678102579384092',), Kwargs: {}
+Time taken: 0.000207 seconds
+Result: 2678 10** **** 4092
+
+get_mask_card_number ok
+Args: ('2269057629158313',), Kwargs: {}
+Time taken: 0.000162 seconds
+Result: 2269 05** **** 8313
+
+get_mask_card_number ok
+Args: ('1467530652300402',), Kwargs: {}
+Time taken: 0.000335 seconds
+Result: 1467 53** **** 0402
+
+get_mask_card_number ok
+Args: ('0383646897791685',), Kwargs: {}
+Time taken: 0.000274 seconds
+Result: 0383 64** **** 1685
+
+get_mask_card_number ok
+Args: ('9980918985573635',), Kwargs: {}
+Time taken: 0.000356 seconds
+Result: 9980 91** **** 3635
+
+get_mask_card_number ok
+Args: ('6113480057863136',), Kwargs: {}
+Time taken: 0.000220 seconds
+Result: 6113 48** **** 3136
+
+get_mask_card_number ok
+Args: ('4775142254527406',), Kwargs: {}
+Time taken: 0.000283 seconds
+Result: 4775 14** **** 7406
+
+get_mask_card_number ok
+Args: ('0930552143364376',), Kwargs: {}
+Time taken: 0.000250 seconds
+Result: 0930 55** **** 4376
+
+get_mask_card_number ok
+Args: ('5163534531737636',), Kwargs: {}
+Time taken: 0.000175 seconds
+Result: 5163 53** **** 7636
+
+get_mask_card_number ok
+Args: ('9854254255741256',), Kwargs: {}
+Time taken: 0.000288 seconds
+Result: 9854 25** **** 1256
+
+get_mask_card_number ok
+Args: ('1574192240031041',), Kwargs: {}
+Time taken: 0.000207 seconds
+Result: 1574 19** **** 1041
+
+get_mask_account ok
+Args: ('97565556730475585217',), Kwargs: {}
+Time taken: 0.000145 seconds
+Result: **5217
+
+get_mask_account ok
+Args: ('36811391490389049691',), Kwargs: {}
+Time taken: 0.000234 seconds
+Result: **9691
+
+get_mask_card_number ok
+Args: ('7320406476027149',), Kwargs: {}
+Time taken: 0.000155 seconds
+Result: 7320 40** **** 7149
+
+get_mask_card_number ok
+Args: ('4821240054296686',), Kwargs: {}
+Time taken: 0.000187 seconds
+Result: 4821 24** **** 6686
+
+get_mask_account ok
+Args: ('60476196595963796362',), Kwargs: {}
+Time taken: 0.000149 seconds
+Result: **6362
+
+get_mask_card_number ok
+Args: ('8621646228906535',), Kwargs: {}
+Time taken: 0.000140 seconds
+Result: 8621 64** **** 6535
+
+get_mask_card_number ok
+Args: ('8098137039932677',), Kwargs: {}
+Time taken: 0.000245 seconds
+Result: 8098 13** **** 2677
+
+get_mask_account ok
+Args: ('82229490370109855587',), Kwargs: {}
+Time taken: 0.000167 seconds
+Result: **5587
+
+get_mask_card_number ok
+Args: ('1543704869759627',), Kwargs: {}
+Time taken: 0.000169 seconds
+Result: 1543 70** **** 9627
+
+get_mask_card_number ok
+Args: ('7023874989167897',), Kwargs: {}
+Time taken: 0.000150 seconds
+Result: 7023 87** **** 7897
+
+get_mask_account ok
+Args: ('04362233061130879079',), Kwargs: {}
+Time taken: 0.000117 seconds
+Result: **9079
+
+get_mask_card_number ok
+Args: ('3407907218075851',), Kwargs: {}
+Time taken: 0.000114 seconds
+Result: 3407 90** **** 5851
+
+get_mask_card_number ok
+Args: ('3920809225480647',), Kwargs: {}
+Time taken: 0.000149 seconds
+Result: 3920 80** **** 0647
+
+get_mask_card_number ok
+Args: ('0769625831234066',), Kwargs: {}
+Time taken: 0.000169 seconds
+Result: 0769 62** **** 4066
+
+get_mask_account ok
+Args: ('89698444160396708996',), Kwargs: {}
+Time taken: 0.000162 seconds
+Result: **8996
+
+get_mask_card_number ok
+Args: ('1576854615043358',), Kwargs: {}
+Time taken: 0.000170 seconds
+Result: 1576 85** **** 3358
+
+get_mask_account ok
+Args: ('55484214540765770320',), Kwargs: {}
+Time taken: 0.000120 seconds
+Result: **0320
+
+get_mask_card_number ok
+Args: ('0631296518388969',), Kwargs: {}
+Time taken: 0.000103 seconds
+Result: 0631 29** **** 8969
+
+get_mask_card_number ok
+Args: ('6497034908492124',), Kwargs: {}
+Time taken: 0.000159 seconds
+Result: 6497 03** **** 2124
+
+get_mask_account ok
+Args: ('40742441133364006255',), Kwargs: {}
+Time taken: 0.000126 seconds
+Result: **6255
+
+get_mask_account ok
+Args: ('52562367063354770261',), Kwargs: {}
+Time taken: 0.000172 seconds
+Result: **0261
+
+get_mask_account ok
+Args: ('30690764917065605785',), Kwargs: {}
+Time taken: 0.000150 seconds
+Result: **5785
+
+get_mask_account ok
+Args: ('95883985429884067440',), Kwargs: {}
+Time taken: 0.000129 seconds
+Result: **7440
+
+get_mask_account ok
+Args: ('98017798502227556609',), Kwargs: {}
+Time taken: 0.000105 seconds
+Result: **6609
+
+get_mask_card_number ok
+Args: ('1625204231900607',), Kwargs: {}
+Time taken: 0.000202 seconds
+Result: 1625 20** **** 0607
+
+get_mask_card_number ok
+Args: ('6547698108887955',), Kwargs: {}
+Time taken: 0.000139 seconds
+Result: 6547 69** **** 7955
+
+get_mask_account ok
+Args: ('78769556201569913464',), Kwargs: {}
+Time taken: 0.000105 seconds
+Result: **3464
+
+get_mask_card_number ok
+Args: ('1869571162526318',), Kwargs: {}
+Time taken: 0.000135 seconds
+Result: 1869 57** **** 6318
+
+get_mask_card_number ok
+Args: ('8377763578542307',), Kwargs: {}
+Time taken: 0.000133 seconds
+Result: 8377 76** **** 2307
+
+get_mask_account ok
+Args: ('47700019920719928388',), Kwargs: {}
+Time taken: 0.000110 seconds
+Result: **8388
+
+get_mask_card_number ok
+Args: ('3175955318657678',), Kwargs: {}
+Time taken: 0.000118 seconds
+Result: 3175 95** **** 7678
+
+get_mask_card_number ok
+Args: ('9365944599565412',), Kwargs: {}
+Time taken: 0.000149 seconds
+Result: 9365 94** **** 5412
+
+get_mask_card_number ok
+Args: ('9055259074920445',), Kwargs: {}
+Time taken: 0.000162 seconds
+Result: 9055 25** **** 0445
+
+get_mask_card_number ok
+Args: ('3629785004484612',), Kwargs: {}
+Time taken: 0.000113 seconds
+Result: 3629 78** **** 4612
+
+get_mask_account ok
+Args: ('09503816595143782708',), Kwargs: {}
+Time taken: 0.000105 seconds
+Result: **2708
+
+get_mask_account ok
+Args: ('88842829646860865403',), Kwargs: {}
+Time taken: 0.000181 seconds
+Result: **5403
+
+get_mask_card_number ok
+Args: ('1871929909720556',), Kwargs: {}
+Time taken: 0.000168 seconds
+Result: 1871 92** **** 0556
+
+get_mask_card_number ok
+Args: ('4747357637092907',), Kwargs: {}
+Time taken: 0.000163 seconds
+Result: 4747 35** **** 2907
+
+get_mask_card_number ok
+Args: ('4534142823002219',), Kwargs: {}
+Time taken: 0.000192 seconds
+Result: 4534 14** **** 2219
+
+get_mask_account ok
+Args: ('26030281604290741032',), Kwargs: {}
+Time taken: 0.000207 seconds
+Result: **1032
+
+get_mask_account ok
+Args: ('08293202872152338638',), Kwargs: {}
+Time taken: 0.000161 seconds
+Result: **8638
+
+get_mask_card_number ok
+Args: ('4188660988695878',), Kwargs: {}
+Time taken: 0.000170 seconds
+Result: 4188 66** **** 5878
+
+get_mask_card_number ok
+Args: ('4670165143133955',), Kwargs: {}
+Time taken: 0.000314 seconds
+Result: 4670 16** **** 3955
+
+get_mask_card_number ok
+Args: ('6741609188063628',), Kwargs: {}
+Time taken: 0.000170 seconds
+Result: 6741 60** **** 3628
+
+get_mask_card_number ok
+Args: ('0163518015691189',), Kwargs: {}
+Time taken: 0.000212 seconds
+Result: 0163 51** **** 1189
+
+get_mask_card_number ok
+Args: ('0149845709452157',), Kwargs: {}
+Time taken: 0.000145 seconds
+Result: 0149 84** **** 2157
+
+get_mask_account ok
+Args: ('77767569336476668437',), Kwargs: {}
+Time taken: 0.000127 seconds
+Result: **8437
+
+get_mask_account ok
+Args: ('46780854004272996593',), Kwargs: {}
+Time taken: 0.000150 seconds
+Result: **6593
+
+get_mask_account ok
+Args: ('37292228167431639458',), Kwargs: {}
+Time taken: 0.000162 seconds
+Result: **9458
+
+get_mask_card_number ok
+Args: ('8023806415405011',), Kwargs: {}
+Time taken: 0.000160 seconds
+Result: 8023 80** **** 5011
+
+get_mask_card_number ok
+Args: ('4330675064880873',), Kwargs: {}
+Time taken: 0.000108 seconds
+Result: 4330 67** **** 0873
+
+get_mask_account ok
+Args: ('13106498680479579714',), Kwargs: {}
+Time taken: 0.000163 seconds
+Result: **9714
+
+get_mask_account ok
+Args: ('91269211633331489581',), Kwargs: {}
+Time taken: 0.000155 seconds
+Result: **9581
+
+get_mask_account ok
+Args: ('83962090923263746792',), Kwargs: {}
+Time taken: 0.000310 seconds
+Result: **6792
+
+get_mask_account ok
+Args: ('38786697703780679258',), Kwargs: {}
+Time taken: 0.000170 seconds
+Result: **9258
+
+get_mask_card_number ok
+Args: ('7491706274351135',), Kwargs: {}
+Time taken: 0.000116 seconds
+Result: 7491 70** **** 1135
+
+get_mask_card_number ok
+Args: ('7569170634837533',), Kwargs: {}
+Time taken: 0.000113 seconds
+Result: 7569 17** **** 7533
+
+get_mask_card_number ok
+Args: ('5505312713585497',), Kwargs: {}
+Time taken: 0.000107 seconds
+Result: 5505 31** **** 5497
+
+get_mask_account ok
+Args: ('63298657753084851664',), Kwargs: {}
+Time taken: 0.000153 seconds
+Result: **1664
+
+get_mask_card_number ok
+Args: ('1645890173600671',), Kwargs: {}
+Time taken: 0.000249 seconds
+Result: 1645 89** **** 0671
+
+get_mask_card_number ok
+Args: ('4738095110228336',), Kwargs: {}
+Time taken: 0.000169 seconds
+Result: 4738 09** **** 8336
+
+get_mask_card_number ok
+Args: ('4407294553976321',), Kwargs: {}
+Time taken: 0.000258 seconds
+Result: 4407 29** **** 6321
+
+get_mask_account ok
+Args: ('35208387182106672186',), Kwargs: {}
+Time taken: 0.000206 seconds
+Result: **2186
+
+get_mask_card_number ok
+Args: ('5002772363297624',), Kwargs: {}
+Time taken: 0.000455 seconds
+Result: 5002 77** **** 7624
+
+get_mask_card_number ok
+Args: ('5688737673105581',), Kwargs: {}
+Time taken: 0.000166 seconds
+Result: 5688 73** **** 5581
+
+get_mask_card_number ok
+Args: ('5514977218468856',), Kwargs: {}
+Time taken: 0.000110 seconds
+Result: 5514 97** **** 8856
+
+get_mask_card_number ok
+Args: ('6902754210775301',), Kwargs: {}
+Time taken: 0.000137 seconds
+Result: 6902 75** **** 5301
+
+get_mask_card_number ok
+Args: ('0358075953034789',), Kwargs: {}
+Time taken: 0.000118 seconds
+Result: 0358 07** **** 4789
+
+get_mask_card_number ok
+Args: ('7020384213026064',), Kwargs: {}
+Time taken: 0.000148 seconds
+Result: 7020 38** **** 6064
+
+get_mask_card_number ok
+Args: ('1321143733747621',), Kwargs: {}
+Time taken: 0.000122 seconds
+Result: 1321 14** **** 7621
+
+get_mask_card_number ok
+Args: ('8378555854465389',), Kwargs: {}
+Time taken: 0.000125 seconds
+Result: 8378 55** **** 5389
+
+get_mask_account ok
+Args: ('96420288541936966744',), Kwargs: {}
+Time taken: 0.000237 seconds
+Result: **6744
+
+get_mask_account ok
+Args: ('07318089075038053901',), Kwargs: {}
+Time taken: 0.000156 seconds
+Result: **3901
+
+get_mask_account ok
+Args: ('05172516288862953128',), Kwargs: {}
+Time taken: 0.000179 seconds
+Result: **3128
+
+get_mask_card_number ok
+Args: ('3114252861244492',), Kwargs: {}
+Time taken: 0.000170 seconds
+Result: 3114 25** **** 4492
+
+get_mask_card_number ok
+Args: ('4627389712448189',), Kwargs: {}
+Time taken: 0.000140 seconds
+Result: 4627 38** **** 8189
+
+get_mask_card_number ok
+Args: ('1781865926439519',), Kwargs: {}
+Time taken: 0.000143 seconds
+Result: 1781 86** **** 9519
+
+get_mask_card_number ok
+Args: ('7807738435996717',), Kwargs: {}
+Time taken: 0.000132 seconds
+Result: 7807 73** **** 6717
+
+get_mask_card_number ok
+Args: ('5868288926724263',), Kwargs: {}
+Time taken: 0.000100 seconds
+Result: 5868 28** **** 4263
+
+get_mask_card_number ok
+Args: ('9132809122792706',), Kwargs: {}
+Time taken: 0.000127 seconds
+Result: 9132 80** **** 2706
+
+get_mask_card_number ok
+Args: ('3187719566240886',), Kwargs: {}
+Time taken: 0.000104 seconds
+Result: 3187 71** **** 0886
+
+get_mask_card_number ok
+Args: ('4694809375452950',), Kwargs: {}
+Time taken: 0.000140 seconds
+Result: 4694 80** **** 2950
+
+get_mask_card_number ok
+Args: ('9845271582621310',), Kwargs: {}
+Time taken: 0.000120 seconds
+Result: 9845 27** **** 1310
+
+get_mask_card_number ok
+Args: ('2528293109343153',), Kwargs: {}
+Time taken: 0.000139 seconds
+Result: 2528 29** **** 3153
+
+get_mask_card_number ok
+Args: ('3294381045631862',), Kwargs: {}
+Time taken: 0.000427 seconds
+Result: 3294 38** **** 1862
+
+get_mask_account ok
+Args: ('82941857947209957540',), Kwargs: {}
+Time taken: 0.000148 seconds
+Result: **7540
+
+get_mask_card_number ok
+Args: ('3307640951904332',), Kwargs: {}
+Time taken: 0.000116 seconds
+Result: 3307 64** **** 4332
+
+get_mask_card_number ok
+Args: ('8561768757933328',), Kwargs: {}
+Time taken: 0.000113 seconds
+Result: 8561 76** **** 3328
+
+get_mask_account ok
+Args: ('90489082675296745022',), Kwargs: {}
+Time taken: 0.000150 seconds
+Result: **5022
+
+get_mask_card_number ok
+Args: ('9737807541197254',), Kwargs: {}
+Time taken: 0.000139 seconds
+Result: 9737 80** **** 7254
+
+get_mask_card_number ok
+Args: ('0342605798844488',), Kwargs: {}
+Time taken: 0.000135 seconds
+Result: 0342 60** **** 4488
+
+get_mask_card_number ok
+Args: ('4756824367415661',), Kwargs: {}
+Time taken: 0.000098 seconds
+Result: 4756 82** **** 5661
+
+get_mask_card_number ok
+Args: ('6499545298816238',), Kwargs: {}
+Time taken: 0.000180 seconds
+Result: 6499 54** **** 6238
+
+get_mask_card_number ok
+Args: ('9659662475890450',), Kwargs: {}
+Time taken: 0.000170 seconds
+Result: 9659 66** **** 0450
+
+get_mask_card_number ok
+Args: ('1864760256062832',), Kwargs: {}
+Time taken: 0.000162 seconds
+Result: 1864 76** **** 2832
+
+get_mask_card_number ok
+Args: ('0474902215594901',), Kwargs: {}
+Time taken: 0.000184 seconds
+Result: 0474 90** **** 4901
+
+get_mask_card_number ok
+Args: ('9009156961180653',), Kwargs: {}
+Time taken: 0.000123 seconds
+Result: 9009 15** **** 0653
+
+get_mask_card_number ok
+Args: ('3641239388125025',), Kwargs: {}
+Time taken: 0.000098 seconds
+Result: 3641 23** **** 5025
+
+get_mask_card_number ok
+Args: ('9249013709224474',), Kwargs: {}
+Time taken: 0.000133 seconds
+Result: 9249 01** **** 4474
+
+get_mask_card_number ok
+Args: ('0478677534311566',), Kwargs: {}
+Time taken: 0.000129 seconds
+Result: 0478 67** **** 1566
+
+get_mask_card_number ok
+Args: ('8772778718443997',), Kwargs: {}
+Time taken: 0.000119 seconds
+Result: 8772 77** **** 3997
+
+get_mask_card_number ok
+Args: ('8093960331401116',), Kwargs: {}
+Time taken: 0.000090 seconds
+Result: 8093 96** **** 1116
+
+get_mask_card_number ok
+Args: ('1224722159463490',), Kwargs: {}
+Time taken: 0.000129 seconds
+Result: 1224 72** **** 3490
+
+get_mask_card_number ok
+Args: ('6290853444919537',), Kwargs: {}
+Time taken: 0.000130 seconds
+Result: 6290 85** **** 9537
+
+get_mask_card_number ok
+Args: ('3907611664671296',), Kwargs: {}
+Time taken: 0.000138 seconds
+Result: 3907 61** **** 1296
+
+get_mask_account ok
+Args: ('73197209028710375773',), Kwargs: {}
+Time taken: 0.000170 seconds
+Result: **5773
+
+get_mask_card_number ok
+Args: ('5612504218607911',), Kwargs: {}
+Time taken: 0.000114 seconds
+Result: 5612 50** **** 7911
+
+get_mask_account ok
+Args: ('96692813169753520384',), Kwargs: {}
+Time taken: 0.000180 seconds
+Result: **0384
+
+get_mask_card_number ok
+Args: ('3588035503290783',), Kwargs: {}
+Time taken: 0.000111 seconds
+Result: 3588 03** **** 0783
+
+get_mask_account ok
+Args: ('44168961306050363869',), Kwargs: {}
+Time taken: 0.000145 seconds
+Result: **3869
+
+get_mask_card_number ok
+Args: ('0317106056412201',), Kwargs: {}
+Time taken: 0.000159 seconds
+Result: 0317 10** **** 2201
+
+get_mask_account ok
+Args: ('31080002409662710330',), Kwargs: {}
+Time taken: 0.000237 seconds
+Result: **0330
+
+get_mask_card_number ok
+Args: ('4272685591982566',), Kwargs: {}
+Time taken: 0.000111 seconds
+Result: 4272 68** **** 2566
+
+get_mask_card_number ok
+Args: ('1114381807822930',), Kwargs: {}
+Time taken: 0.000122 seconds
+Result: 1114 38** **** 2930
+
+get_mask_card_number ok
+Args: ('0803276764821082',), Kwargs: {}
+Time taken: 0.000128 seconds
+Result: 0803 27** **** 1082
+
+get_mask_card_number ok
+Args: ('6602596422358257',), Kwargs: {}
+Time taken: 0.000128 seconds
+Result: 6602 59** **** 8257
+
+get_mask_card_number ok
+Args: ('6311535048493715',), Kwargs: {}
+Time taken: 0.000101 seconds
+Result: 6311 53** **** 3715
+
+get_mask_card_number ok
+Args: ('6103555688511371',), Kwargs: {}
+Time taken: 0.000146 seconds
+Result: 6103 55** **** 1371
+
+get_mask_card_number ok
+Args: ('7505798122789172',), Kwargs: {}
+Time taken: 0.000131 seconds
+Result: 7505 79** **** 9172
+
+get_mask_card_number ok
+Args: ('4033942449270190',), Kwargs: {}
+Time taken: 0.000162 seconds
+Result: 4033 94** **** 0190
+
+get_mask_card_number ok
+Args: ('4605227118045463',), Kwargs: {}
+Time taken: 0.000121 seconds
+Result: 4605 22** **** 5463
+
+get_mask_card_number ok
+Args: ('5253972174427993',), Kwargs: {}
+Time taken: 0.000132 seconds
+Result: 5253 97** **** 7993
+
+get_mask_account ok
+Args: ('64339097692172543801',), Kwargs: {}
+Time taken: 0.000109 seconds
+Result: **3801
+
+get_mask_account ok
+Args: ('65515023539147659794',), Kwargs: {}
+Time taken: 0.000098 seconds
+Result: **9794
+
+get_mask_card_number ok
+Args: ('6348321385395461',), Kwargs: {}
+Time taken: 0.000215 seconds
+Result: 6348 32** **** 5461
+
+get_mask_card_number ok
+Args: ('7325946652944710',), Kwargs: {}
+Time taken: 0.000135 seconds
+Result: 7325 94** **** 4710
+
+get_mask_card_number ok
+Args: ('8600999617172909',), Kwargs: {}
+Time taken: 0.000164 seconds
+Result: 8600 99** **** 2909
+
+get_mask_card_number ok
+Args: ('2844866498722428',), Kwargs: {}
+Time taken: 0.000144 seconds
+Result: 2844 86** **** 2428
+
+get_mask_card_number ok
+Args: ('2627051318570658',), Kwargs: {}
+Time taken: 0.000121 seconds
+Result: 2627 05** **** 0658
+
+get_mask_account ok
+Args: ('67891866687752369595',), Kwargs: {}
+Time taken: 0.000175 seconds
+Result: **9595
+
+get_mask_card_number ok
+Args: ('9800302102501629',), Kwargs: {}
+Time taken: 0.000134 seconds
+Result: 9800 30** **** 1629
+
+get_mask_card_number ok
+Args: ('2405382947502377',), Kwargs: {}
+Time taken: 0.000105 seconds
+Result: 2405 38** **** 2377
+
+get_mask_card_number ok
+Args: ('0100855364826755',), Kwargs: {}
+Time taken: 0.000162 seconds
+Result: 0100 85** **** 6755
+
+get_mask_card_number ok
+Args: ('8643424644765562',), Kwargs: {}
+Time taken: 0.000129 seconds
+Result: 8643 42** **** 5562
+
+get_mask_card_number ok
+Args: ('9035732695110352',), Kwargs: {}
+Time taken: 0.000138 seconds
+Result: 9035 73** **** 0352
+
+get_mask_card_number ok
+Args: ('8440267076775146',), Kwargs: {}
+Time taken: 0.000147 seconds
+Result: 8440 26** **** 5146
+
+get_mask_card_number ok
+Args: ('7431983574131577',), Kwargs: {}
+Time taken: 0.000124 seconds
+Result: 7431 98** **** 1577
+
+get_mask_account ok
+Args: ('08858102338416536409',), Kwargs: {}
+Time taken: 0.000113 seconds
+Result: **6409
+
+get_mask_card_number ok
+Args: ('6477627838877562',), Kwargs: {}
+Time taken: 0.000140 seconds
+Result: 6477 62** **** 7562
+
+get_mask_account ok
+Args: ('88381741644903346269',), Kwargs: {}
+Time taken: 0.000101 seconds
+Result: **6269
+
+get_mask_card_number ok
+Args: ('1747353075279525',), Kwargs: {}
+Time taken: 0.000103 seconds
+Result: 1747 35** **** 9525
+
+get_mask_card_number ok
+Args: ('3125438085014296',), Kwargs: {}
+Time taken: 0.000098 seconds
+Result: 3125 43** **** 4296
+
+get_mask_card_number ok
+Args: ('6774409271534698',), Kwargs: {}
+Time taken: 0.000161 seconds
+Result: 6774 40** **** 4698
+
+get_mask_card_number ok
+Args: ('6125995337388389',), Kwargs: {}
+Time taken: 0.000192 seconds
+Result: 6125 99** **** 8389
+
+get_mask_card_number ok
+Args: ('8198255172011752',), Kwargs: {}
+Time taken: 0.000547 seconds
+Result: 8198 25** **** 1752
+
+get_mask_card_number ok
+Args: ('1521610110014693',), Kwargs: {}
+Time taken: 0.000167 seconds
+Result: 1521 61** **** 4693
+
+get_mask_card_number ok
+Args: ('5138829471442482',), Kwargs: {}
+Time taken: 0.000122 seconds
+Result: 5138 82** **** 2482
+
+get_mask_account ok
+Args: ('86520143612658802382',), Kwargs: {}
+Time taken: 0.000134 seconds
+Result: **2382
+
+get_mask_card_number ok
+Args: ('6640372313921891',), Kwargs: {}
+Time taken: 0.000143 seconds
+Result: 6640 37** **** 1891
+
+get_mask_card_number ok
+Args: ('3669791391703828',), Kwargs: {}
+Time taken: 0.000128 seconds
+Result: 3669 79** **** 3828
+
+get_mask_card_number ok
+Args: ('2932525563014117',), Kwargs: {}
+Time taken: 0.000144 seconds
+Result: 2932 52** **** 4117
+
+get_mask_card_number ok
+Args: ('3633642385468444',), Kwargs: {}
+Time taken: 0.000134 seconds
+Result: 3633 64** **** 8444
+
+get_mask_card_number ok
+Args: ('9984189726356135',), Kwargs: {}
+Time taken: 0.000092 seconds
+Result: 9984 18** **** 6135
+
+get_mask_card_number ok
+Args: ('9496683068632548',), Kwargs: {}
+Time taken: 0.000141 seconds
+Result: 9496 68** **** 2548
+
+get_mask_card_number ok
+Args: ('0208810830776920',), Kwargs: {}
+Time taken: 0.000166 seconds
+Result: 0208 81** **** 6920
+
+get_mask_card_number ok
+Args: ('4495966967290894',), Kwargs: {}
+Time taken: 0.000190 seconds
+Result: 4495 96** **** 0894
+
+get_mask_card_number ok
+Args: ('7733979172661103',), Kwargs: {}
+Time taken: 0.000110 seconds
+Result: 7733 97** **** 1103
+
+get_mask_card_number ok
+Args: ('9976862606592955',), Kwargs: {}
+Time taken: 0.000116 seconds
+Result: 9976 86** **** 2955
+
+get_mask_card_number ok
+Args: ('4625906322198608',), Kwargs: {}
+Time taken: 0.000099 seconds
+Result: 4625 90** **** 8608
+
+get_mask_account ok
+Args: ('66619332174598187292',), Kwargs: {}
+Time taken: 0.000204 seconds
+Result: **7292
+
+get_mask_card_number ok
+Args: ('1256970763079173',), Kwargs: {}
+Time taken: 0.000203 seconds
+Result: 1256 97** **** 9173
+
+get_mask_account ok
+Args: ('57605402872278121538',), Kwargs: {}
+Time taken: 0.000200 seconds
+Result: **1538
+
+get_mask_card_number ok
+Args: ('2245008812200631',), Kwargs: {}
+Time taken: 0.000101 seconds
+Result: 2245 00** **** 0631
+
+get_mask_card_number ok
+Args: ('5496713030087267',), Kwargs: {}
+Time taken: 0.000095 seconds
+Result: 5496 71** **** 7267
+
+get_mask_card_number ok
+Args: ('5046910947182463',), Kwargs: {}
+Time taken: 0.000099 seconds
+Result: 5046 91** **** 2463
+
+get_mask_card_number ok
+Args: ('3454195292745722',), Kwargs: {}
+Time taken: 0.000090 seconds
+Result: 3454 19** **** 5722
+
+get_mask_account ok
+Args: ('47740967047235244813',), Kwargs: {}
+Time taken: 0.000090 seconds
+Result: **4813
+
+get_mask_card_number ok
+Args: ('3568441571958482',), Kwargs: {}
+Time taken: 0.000107 seconds
+Result: 3568 44** **** 8482
+
+get_mask_card_number ok
+Args: ('0688707149480292',), Kwargs: {}
+Time taken: 0.000146 seconds
+Result: 0688 70** **** 0292
+
+get_mask_account ok
+Args: ('49835166076184371589',), Kwargs: {}
+Time taken: 0.000142 seconds
+Result: **1589
+
+get_mask_account ok
+Args: ('40357013384457231147',), Kwargs: {}
+Time taken: 0.000098 seconds
+Result: **1147
+
+get_mask_account ok
+Args: ('59361600183832821416',), Kwargs: {}
+Time taken: 0.000107 seconds
+Result: **1416
+
+get_mask_card_number ok
+Args: ('3233958335206913',), Kwargs: {}
+Time taken: 0.000157 seconds
+Result: 3233 95** **** 6913
+
+get_mask_card_number ok
+Args: ('6269545625045856',), Kwargs: {}
+Time taken: 0.000158 seconds
+Result: 6269 54** **** 5856
+
+get_mask_card_number ok
+Args: ('9775497812609116',), Kwargs: {}
+Time taken: 0.000169 seconds
+Result: 9775 49** **** 9116
+
+get_mask_card_number ok
+Args: ('5944506116473459',), Kwargs: {}
+Time taken: 0.000163 seconds
+Result: 5944 50** **** 3459
+
+get_mask_card_number ok
+Args: ('5478099584092921',), Kwargs: {}
+Time taken: 0.000113 seconds
+Result: 5478 09** **** 2921
+
+get_mask_card_number ok
+Args: ('2255596566027326',), Kwargs: {}
+Time taken: 0.000151 seconds
+Result: 2255 59** **** 7326
+
+get_mask_card_number ok
+Args: ('3800548259118301',), Kwargs: {}
+Time taken: 0.000142 seconds
+Result: 3800 54** **** 8301
+
+get_mask_card_number ok
+Args: ('3857603686856041',), Kwargs: {}
+Time taken: 0.000150 seconds
+Result: 3857 60** **** 6041
+
+get_mask_account ok
+Args: ('08116016835671035018',), Kwargs: {}
+Time taken: 0.000171 seconds
+Result: **5018
+
+get_mask_card_number ok
+Args: ('7161243147790334',), Kwargs: {}
+Time taken: 0.000151 seconds
+Result: 7161 24** **** 0334
+
+get_mask_account ok
+Args: ('76355617883095566183',), Kwargs: {}
+Time taken: 0.000133 seconds
+Result: **6183
+
+get_mask_card_number ok
+Args: ('5983030475609063',), Kwargs: {}
+Time taken: 0.000098 seconds
+Result: 5983 03** **** 9063
+
+get_mask_card_number ok
+Args: ('8166276555625267',), Kwargs: {}
+Time taken: 0.000188 seconds
+Result: 8166 27** **** 5267
+
+get_mask_card_number ok
+Args: ('9576458861815708',), Kwargs: {}
+Time taken: 0.000187 seconds
+Result: 9576 45** **** 5708
+
+get_mask_card_number ok
+Args: ('4321975182864595',), Kwargs: {}
+Time taken: 0.000161 seconds
+Result: 4321 97** **** 4595
+
+get_mask_card_number ok
+Args: ('4249648000496538',), Kwargs: {}
+Time taken: 0.000161 seconds
+Result: 4249 64** **** 6538
+
+get_mask_card_number ok
+Args: ('4478419247437211',), Kwargs: {}
+Time taken: 0.000133 seconds
+Result: 4478 41** **** 7211
+
+get_mask_account ok
+Args: ('87117715624747483097',), Kwargs: {}
+Time taken: 0.000234 seconds
+Result: **3097
+
+get_mask_account ok
+Args: ('73554102589353530426',), Kwargs: {}
+Time taken: 0.000196 seconds
+Result: **0426
+
+get_mask_card_number ok
+Args: ('0871573566179515',), Kwargs: {}
+Time taken: 0.000165 seconds
+Result: 0871 57** **** 9515
+
+get_mask_card_number ok
+Args: ('7671773179035343',), Kwargs: {}
+Time taken: 0.000195 seconds
+Result: 7671 77** **** 5343
+
+get_mask_account ok
+Args: ('96408418161748634691',), Kwargs: {}
+Time taken: 0.000184 seconds
+Result: **4691
+
+get_mask_card_number ok
+Args: ('7201033785622479',), Kwargs: {}
+Time taken: 0.000202 seconds
+Result: 7201 03** **** 2479
+
+get_mask_account ok
+Args: ('28268105792239263134',), Kwargs: {}
+Time taken: 0.000261 seconds
+Result: **3134
+
+get_mask_card_number ok
+Args: ('2491943868249693',), Kwargs: {}
+Time taken: 0.000122 seconds
+Result: 2491 94** **** 9693
+
+get_mask_card_number ok
+Args: ('7077798977965820',), Kwargs: {}
+Time taken: 0.000219 seconds
+Result: 7077 79** **** 5820
+
+get_mask_card_number ok
+Args: ('6453536798067238',), Kwargs: {}
+Time taken: 0.000142 seconds
+Result: 6453 53** **** 7238
+
+get_mask_account ok
+Args: ('16771823456925574978',), Kwargs: {}
+Time taken: 0.000190 seconds
+Result: **4978
+
+get_mask_card_number ok
+Args: ('6079985810069539',), Kwargs: {}
+Time taken: 0.000185 seconds
+Result: 6079 98** **** 9539
+
+get_mask_card_number ok
+Args: ('4187003076609282',), Kwargs: {}
+Time taken: 0.000199 seconds
+Result: 4187 00** **** 9282
+
+get_mask_account ok
+Args: ('69086868315648596195',), Kwargs: {}
+Time taken: 0.000189 seconds
+Result: **6195
+
+get_mask_card_number ok
+Args: ('9058011549803523',), Kwargs: {}
+Time taken: 0.000189 seconds
+Result: 9058 01** **** 3523
+
+get_mask_card_number ok
+Args: ('5266726031439012',), Kwargs: {}
+Time taken: 0.000355 seconds
+Result: 5266 72** **** 9012
+
+get_mask_card_number ok
+Args: ('2856040699058042',), Kwargs: {}
+Time taken: 0.000218 seconds
+Result: 2856 04** **** 8042
+
+get_mask_card_number ok
+Args: ('6194726895133398',), Kwargs: {}
+Time taken: 0.000195 seconds
+Result: 6194 72** **** 3398
+
+get_mask_card_number ok
+Args: ('9762476852200502',), Kwargs: {}
+Time taken: 0.000209 seconds
+Result: 9762 47** **** 0502
+
+get_mask_card_number ok
+Args: ('1032017250021833',), Kwargs: {}
+Time taken: 0.000292 seconds
+Result: 1032 01** **** 1833
+
+get_mask_card_number ok
+Args: ('3575538110484580',), Kwargs: {}
+Time taken: 0.000222 seconds
+Result: 3575 53** **** 4580
+
+get_mask_card_number ok
+Args: ('7236929077686727',), Kwargs: {}
+Time taken: 0.000204 seconds
+Result: 7236 92** **** 6727
+
+get_mask_card_number ok
+Args: ('6840667987524201',), Kwargs: {}
+Time taken: 0.000202 seconds
+Result: 6840 66** **** 4201
+
+get_mask_card_number ok
+Args: ('5848979174601577',), Kwargs: {}
+Time taken: 0.000581 seconds
+Result: 5848 97** **** 1577
+
+get_mask_account ok
+Args: ('24586136214737269364',), Kwargs: {}
+Time taken: 0.000165 seconds
+Result: **9364
+
+get_mask_card_number ok
+Args: ('4225154400758745',), Kwargs: {}
+Time taken: 0.000209 seconds
+Result: 4225 15** **** 8745
+
+get_mask_card_number ok
+Args: ('0556460753444710',), Kwargs: {}
+Time taken: 0.000233 seconds
+Result: 0556 46** **** 4710
+
+get_mask_account ok
+Args: ('02128618384427301635',), Kwargs: {}
+Time taken: 0.000206 seconds
+Result: **1635
+
+get_mask_account ok
+Args: ('25745812541257778590',), Kwargs: {}
+Time taken: 0.000259 seconds
+Result: **8590
+
+get_mask_account ok
+Args: ('23862786914703615175',), Kwargs: {}
+Time taken: 0.000368 seconds
+Result: **5175
+
+get_mask_card_number ok
+Args: ('8441054475956337',), Kwargs: {}
+Time taken: 0.000246 seconds
+Result: 8441 05** **** 6337
+
+get_mask_card_number ok
+Args: ('4804370722599393',), Kwargs: {}
+Time taken: 0.000272 seconds
+Result: 4804 37** **** 9393
+
+get_mask_card_number ok
+Args: ('5749750597771353',), Kwargs: {}
+Time taken: 0.000214 seconds
+Result: 5749 75** **** 1353
+
+get_mask_card_number ok
+Args: ('9106381490184499',), Kwargs: {}
+Time taken: 0.000192 seconds
+Result: 9106 38** **** 4499
+
+get_mask_card_number ok
+Args: ('6644696207526766',), Kwargs: {}
+Time taken: 0.000175 seconds
+Result: 6644 69** **** 6766
+
+get_mask_card_number ok
+Args: ('8548964838326541',), Kwargs: {}
+Time taken: 0.000180 seconds
+Result: 8548 96** **** 6541
+
+get_mask_card_number ok
+Args: ('0632158083785792',), Kwargs: {}
+Time taken: 0.000251 seconds
+Result: 0632 15** **** 5792
+
+get_mask_card_number ok
+Args: ('0532003528871708',), Kwargs: {}
+Time taken: 0.000208 seconds
+Result: 0532 00** **** 1708
+
+get_mask_card_number ok
+Args: ('2077167756122624',), Kwargs: {}
+Time taken: 0.000176 seconds
+Result: 2077 16** **** 2624
+
+get_mask_account ok
+Args: ('12692107571051189313',), Kwargs: {}
+Time taken: 0.000184 seconds
+Result: **9313
+
+get_mask_card_number ok
+Args: ('5273150871379598',), Kwargs: {}
+Time taken: 0.000160 seconds
+Result: 5273 15** **** 9598
+
+get_mask_card_number ok
+Args: ('2228394034527340',), Kwargs: {}
+Time taken: 0.000282 seconds
+Result: 2228 39** **** 7340
+
+get_mask_card_number ok
+Args: ('8838784203105980',), Kwargs: {}
+Time taken: 0.000192 seconds
+Result: 8838 78** **** 5980
+
+get_mask_card_number ok
+Args: ('9604746164148154',), Kwargs: {}
+Time taken: 0.000196 seconds
+Result: 9604 74** **** 8154
+
+get_mask_card_number ok
+Args: ('4597611385572324',), Kwargs: {}
+Time taken: 0.000182 seconds
+Result: 4597 61** **** 2324
+
+get_mask_card_number ok
+Args: ('0264849140954307',), Kwargs: {}
+Time taken: 0.000213 seconds
+Result: 0264 84** **** 4307
+
+get_mask_card_number ok
+Args: ('6177546839517597',), Kwargs: {}
+Time taken: 0.000217 seconds
+Result: 6177 54** **** 7597
+
+get_mask_card_number ok
+Args: ('9695664158183113',), Kwargs: {}
+Time taken: 0.000390 seconds
+Result: 9695 66** **** 3113
+
+get_mask_account ok
+Args: ('49075406587701019462',), Kwargs: {}
+Time taken: 0.000218 seconds
+Result: **9462
+
+get_mask_card_number ok
+Args: ('5444471272260826',), Kwargs: {}
+Time taken: 0.000250 seconds
+Result: 5444 47** **** 0826
+
+get_mask_card_number ok
+Args: ('9213489075974563',), Kwargs: {}
+Time taken: 0.000203 seconds
+Result: 9213 48** **** 4563
+
+get_mask_card_number ok
+Args: ('7673263953329337',), Kwargs: {}
+Time taken: 0.000293 seconds
+Result: 7673 26** **** 9337
+
+get_mask_card_number ok
+Args: ('6961587092605561',), Kwargs: {}
+Time taken: 0.000549 seconds
+Result: 6961 58** **** 5561
+
+get_mask_account ok
+Args: ('58661644025578523199',), Kwargs: {}
+Time taken: 0.000231 seconds
+Result: **3199
+
+get_mask_card_number ok
+Args: ('0248447631215432',), Kwargs: {}
+Time taken: 0.000228 seconds
+Result: 0248 44** **** 5432
+
+get_mask_card_number ok
+Args: ('3856315470030794',), Kwargs: {}
+Time taken: 0.000515 seconds
+Result: 3856 31** **** 0794
+
+get_mask_card_number ok
+Args: ('6101438539947726',), Kwargs: {}
+Time taken: 0.000422 seconds
+Result: 6101 43** **** 7726
+
+get_mask_card_number ok
+Args: ('1093643052935424',), Kwargs: {}
+Time taken: 0.000227 seconds
+Result: 1093 64** **** 5424
+
+get_mask_card_number ok
+Args: ('5367334867736788',), Kwargs: {}
+Time taken: 0.000243 seconds
+Result: 5367 33** **** 6788
+
+get_mask_card_number ok
+Args: ('3673180759636903',), Kwargs: {}
+Time taken: 0.000215 seconds
+Result: 3673 18** **** 6903
+
