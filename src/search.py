@@ -6,7 +6,7 @@ def process_bank_search(data: list[dict], search: str) -> list[dict]:
 
     result = []
 
-    # создаем шаблон регулярного выражения для поиска среди транзакций, делаем регистронезависимость через re.IGNORECASE
+    # создаем шаблон рег. выражения для поиска среди транзакций, делаем регистронезависимость через re.IGNORECASE
     pattern = re.compile(search, re.IGNORECASE)
 
     for operation in data:
@@ -18,7 +18,6 @@ def process_bank_search(data: list[dict], search: str) -> list[dict]:
             result.append(operation)
 
     return result
-
 
 
 def process_bank_operations(data: list[dict], categories: list) -> dict:

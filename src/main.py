@@ -1,12 +1,10 @@
 from datetime import datetime
 from pathlib import Path
-
-from src.utils import read_operations
-from src.read_transactions import read_csv_transactions, read_excel_transactions
 from src.processing import filter_by_state, sort_by_date
-from src.widget import mask_account_card, get_date
+from src.read_transactions import read_csv_transactions, read_excel_transactions
 from src.search import process_bank_search
-
+from src.utils import read_operations
+from src.widget import get_date, mask_account_card
 
 # Папка с файлами
 DATA_DIR = Path(__file__).resolve().parent.parent / 'data'
@@ -153,7 +151,6 @@ def save_results(transactions, query_info):
     return file_path
 
 
-
 def main():
     """Главная функция приложения"""
 
@@ -196,13 +193,11 @@ def main():
         print('Не удалось загрузить операции, или файл пуст')
         return
 
-
     # Создаём список для сохранения параметров запроса
     query_info = []
 
     # Записываем источник данных
     query_info.append(f'Источник данных: {source_name}')
-
 
     # Фильтрация по статусу
     print('\nВведите статус, по которому необходимо выполнить фильтрацию: ')
@@ -210,11 +205,7 @@ def main():
     print('2. CANCELED — отменена')
     print('3. PENDING — ожидает обработки')
 
-    statuses = {
-        '1': 'EXECUTED',
-        '2': 'CANCELED',
-        '3': 'PENDING'
-    }
+    statuses = {'1': 'EXECUTED', '2': 'CANCELED', '3': 'PENDING'}
 
     while True:
         status_choice = input('Введите номер статуса: ').strip()
@@ -225,10 +216,8 @@ def main():
         else:
             print('Неверный выбор. Попробуйте ещё раз')
 
-
     # Записываем выбранный статус в параметры запроса
     query_info.append(f'Статус операций: {status}')
-
 
     # Фильтруем операции по статусу
     transactions = filter_by_state(transactions, status)
@@ -288,7 +277,5 @@ def main():
     print(f'Отчёт сохранён: {result_file}')
 
 
-
 if __name__ == '__main__':
     main()
-

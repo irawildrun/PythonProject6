@@ -1,6 +1,5 @@
 import pytest
-
-from src.search import process_bank_search, process_bank_operations
+from src.search import process_bank_operations, process_bank_search
 
 
 @pytest.fixture
@@ -34,6 +33,7 @@ def operations():
 
 
 # Тесты для process_bank_search()
+
 
 def test_process_bank_search_finds_matches(operations):
     """Проверяем поиск операций по заданному слову"""
@@ -82,6 +82,7 @@ def test_process_bank_search_empty_string(operations):
 
 # Тесты для process_bank_operations()
 
+
 def test_process_bank_operations_counts_categories(operations):
     """Проверяем подсчёт операций по категориям"""
     categories = ['Оплата', 'Перевод']
@@ -129,4 +130,3 @@ def test_process_bank_operations_empty_categories(operations):
     result = process_bank_operations(operations, [])
 
     assert result == {}
-

@@ -2,14 +2,13 @@ from unittest.mock import patch
 import pytest
 from src import main
 
-
 # Тесты функции get_yes_no()
+
 
 def test_get_yes_no_valid_answers():
     """Проверяет допустимые ответы Да и Нет"""
 
-    answers = ['да', 'ага', 'yes', 'y', 'yeah', 'yep',
-               'нет', 'неа', 'no', 'n', 'nope']
+    answers = ['да', 'ага', 'yes', 'y', 'yeah', 'yep', 'нет', 'неа', 'no', 'n', 'nope']
 
     expected_results = [True, True, True, True, True, True, False, False, False, False, False]
 
@@ -36,16 +35,11 @@ def test_get_yes_no_invalid_answer(capsys):
 
 # Тесты функции get_currency_code()
 
+
 def test_get_currency_code_json():
     """Проверяет получение кода валюты из JSON"""
 
-    transaction = {
-        'operationAmount': {
-            'currency': {
-                'code': 'RUB'
-            }
-        }
-    }
+    transaction = {'operationAmount': {'currency': {'code': 'RUB'}}}
 
     result = main.get_currency_code(transaction)
 
@@ -55,9 +49,7 @@ def test_get_currency_code_json():
 def test_get_currency_code_csv():
     """Проверяет получение кода валюты из CSV или XLSX"""
 
-    transaction = {
-        'currency_code': 'USD'
-    }
+    transaction = {'currency_code': 'USD'}
 
     result = main.get_currency_code(transaction)
 
@@ -76,6 +68,7 @@ def test_get_currency_code_missing():
 
 # Тесты функции filter_transactions_by_currency()
 
+
 def test_filter_transactions_by_currency():
     """Проверяет фильтрацию операций по валюте"""
 
@@ -83,36 +76,27 @@ def test_filter_transactions_by_currency():
         {'id': 1, 'currency_code': 'RUB'},
         {'id': 2, 'currency_code': 'USD'},
         {'id': 3, 'currency_code': 'RUB'},
-        {'id': 4, 'currency_code': 'EUR'}
+        {'id': 4, 'currency_code': 'EUR'},
     ]
 
-    result = main.filter_transactions_by_currency(
-        transactions, 'RUB'
-    )
+    result = main.filter_transactions_by_currency(transactions, 'RUB')
 
     assert len(result) == 2
-    assert result == [
-        {'id': 1, 'currency_code': 'RUB'},
-        {'id': 3, 'currency_code': 'RUB'}
-    ]
+    assert result == [{'id': 1, 'currency_code': 'RUB'}, {'id': 3, 'currency_code': 'RUB'}]
 
 
 def test_filter_transactions_by_currency_empty():
     """Проверяет результат, если подходящих операций нет"""
 
-    transactions = [
-        {'id': 1, 'currency_code': 'USD'},
-        {'id': 2, 'currency_code': 'EUR'}
-    ]
+    transactions = [{'id': 1, 'currency_code': 'USD'}, {'id': 2, 'currency_code': 'EUR'}]
 
-    result = main.filter_transactions_by_currency(
-        transactions, 'RUB'
-    )
+    result = main.filter_transactions_by_currency(transactions, 'RUB')
 
     assert result == []
 
 
 # Тесты функции format_transaction()
+
 
 def test_format_transaction_json():
     """Проверяет форматирование операции из JSON"""
@@ -122,21 +106,12 @@ def test_format_transaction_json():
         'description': 'Перевод организации',
         'from': 'Visa Classic 1234567890123456',
         'to': 'Счет 12345678901234567890',
-        'operationAmount': {
-            'amount': '1500.00',
-            'currency': {
-                'name': 'руб.',
-                'code': 'RUB'
-            }
-        }
+        'operationAmount': {'amount': '1500.00', 'currency': {'name': 'руб.', 'code': 'RUB'}},
     }
 
     with (
         patch('src.main.get_date', return_value='15.01.2024'),
-        patch('src.main.mask_account_card', side_effect=[
-            'Visa Classic 1234 56** **** 3456',
-            'Счет **7890'
-        ])
+        patch('src.main.mask_account_card', side_effect=['Visa Classic 1234 56** **** 3456', 'Счет **7890']),
     ):
         result = main.format_transaction(transaction)
 
@@ -157,12 +132,12 @@ def test_format_transaction_csv():
         'from': None,
         'to': 'Счет 12345678901234567890',
         'amount': '2500.00',
-        'currency_name': 'руб.'
+        'currency_name': 'руб.',
     }
 
     with (
         patch('src.main.get_date', return_value='15.01.2024'),
-        patch('src.main.mask_account_card', return_value='Счет **7890')
+        patch('src.main.mask_account_card', return_value='Счет **7890'),
     ):
         result = main.format_transaction(transaction)
 
@@ -180,7 +155,7 @@ def test_format_transaction_without_sender_and_recipient():
         'date': '2024-01-15T10:30:00',
         'description': 'Пополнение счета',
         'amount': '500',
-        'currency_name': 'руб.'
+        'currency_name': 'руб.',
     }
 
     with patch('src.main.get_date', return_value='15.01.2024'):
@@ -193,26 +168,22 @@ def test_format_transaction_without_sender_and_recipient():
 
 # Тесты функции save_results()
 
+
 def test_save_results_creates_report(tmp_path):
     """Проверяет создание и заполнение отчёта"""
 
-    transactions = [
-        {'id': 1}
-    ]
+    transactions = [{'id': 1}]
 
     query_info = [
         'Источник данных: JSON (operations.json)',
         'Статус операций: EXECUTED',
-        'Фильтрация по валюте: только RUB'
+        'Фильтрация по валюте: только RUB',
     ]
 
     # Подменяем функцию форматирования операции
     with (
         patch('src.main.RESULTS_DIR', tmp_path),
-        patch(
-            'src.main.format_transaction',
-            return_value='15.01.2024 Оплата услуг'
-        )
+        patch('src.main.format_transaction', return_value='15.01.2024 Оплата услуг'),
     ):
         result = main.save_results(transactions, query_info)
 
@@ -242,10 +213,11 @@ def test_save_results_without_transactions(tmp_path):
 
     assert result.exists()
     assert 'Количество найденных операций: 0' in report
-    assert ('Не найдено ни одной транзакции, подходящей под условия фильтрации' in report)
+    assert 'Не найдено ни одной транзакции, подходящей под условия фильтрации' in report
 
 
 # Тесты главной функции main()
+
 
 def test_main_json_success(capsys, tmp_path):
     """Проверяет успешную работу основной функции с JSON"""
@@ -256,13 +228,7 @@ def test_main_json_success(capsys, tmp_path):
             'state': 'EXECUTED',
             'date': '2024-01-15T10:30:00',
             'description': 'Оплата услуг',
-            'operationAmount': {
-                'amount': '1500',
-                'currency': {
-                    'name': 'руб.',
-                    'code': 'RUB'
-                }
-            }
+            'operationAmount': {'amount': '1500', 'currency': {'name': 'руб.', 'code': 'RUB'}},
         }
     ]
 
@@ -274,7 +240,7 @@ def test_main_json_success(capsys, tmp_path):
         patch('src.main.read_operations', return_value=transactions),
         patch('src.main.filter_by_state', return_value=transactions),
         patch('src.main.save_results', return_value=tmp_path / 'report.txt'),
-        patch('src.main.format_transaction', return_value='Оплата услуг')
+        patch('src.main.format_transaction', return_value='Оплата услуг'),
     ):
         main.main()
 
@@ -292,7 +258,7 @@ def test_main_empty_file(capsys):
     with (
         patch('builtins.input', return_value='1'),
         patch('src.main.read_operations', return_value=[]),
-        patch('src.main.save_results') as mock_save_results
+        patch('src.main.save_results') as mock_save_results,
     ):
         main.main()
 
