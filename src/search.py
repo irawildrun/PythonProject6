@@ -1,7 +1,8 @@
 import re
+from collections import Counter
 
 
-def process_bank_search(data: list[dict], search: str) -> list[dict]:
+def process_bank_search(data, search):
     """Ищет банковские операции по заданной строке в описании"""
 
     result = []
@@ -20,24 +21,27 @@ def process_bank_search(data: list[dict], search: str) -> list[dict]:
     return result
 
 
-def process_bank_operations(data: list[dict], categories: list) -> dict:
+def process_bank_operations(data, categories):
     """Подсчитывает количество операций по категориям"""
+
+    # Собираем все описания операций в список
+    descriptions = [
+        # делаем возможность поиска по части строки, а не по точному совпадению.
+        # Приводим строки поиска к единому формату через нижний регистр
+        # Проверяем, что описание является строкой
+        operation.get('description', '').lower()
+        for operation in data
+        if isinstance(operation.get('description'), str)
+    ]
+
+    # Создаем счетчик описаний
+    counter = Counter(descriptions)
 
     result = {}
 
     for category in categories:
-        count = 0
-
-        for operation in data:
-            description = operation.get('description')
-
-            # делаем возможность поиска по части строки, а не по точному совпадению.
-            # Приводим строки поиска к единому формату через нижний регистр
-            # Проверяем, что описание является строкой
-            if isinstance(description, str):
-                # Ищем категорию без учёта регистра
-                if category.lower() in description.lower():
-                    count += 1
+        # Считаем количество описаний, содержащих категорию
+        count = sum(value for description, value in counter.items() if category.lower() in description)
 
         result[category] = count
 

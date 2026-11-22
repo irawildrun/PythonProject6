@@ -5,7 +5,6 @@ from src.masks import get_mask_account, get_mask_card_number
 
 
 @log(filename='../widget_logs.txt')
-@log()
 def mask_account_card(data: str) -> str:
     """Маскировка номера карты или счета"""
     # Проверяем на наличие цифр в конце строки, если они есть, выполнится функция маскировки
