@@ -46,3 +46,5 @@ def process_bank_operations(data, categories):
         result[category] = count
 
     return result
+
+
