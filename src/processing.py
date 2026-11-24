@@ -15,7 +15,7 @@ list_of_bank_operations = [
 def filter_by_state(list_of_bank_operations: List[Dict[str, Any]], state: str = 'EXECUTED') -> List[Dict[str, Any]]:
     """Функция фильтрации банковских операций по статусу, по-умолчанию статус 'EXECUTED' (ВЫПОЛНЕНО)
     Используем list comprehension."""
-    return [operation for operation in list_of_bank_operations if operation['state'] == state]
+    return [operation for operation in list_of_bank_operations if operation.get('state') == state]
 
 
 @log(filename='../processing_logs.txt')
@@ -27,12 +27,13 @@ def sort_by_date(list_of_bank_operations: List[Dict[str, Any]], reverse: bool = 
     return sorted(list_of_bank_operations, key=lambda x: parse_iso_date(x['date']), reverse=reverse)
 
 
-# проверка работы функции фильтрации по статусу операции
-executed_operations = filter_by_state(list_of_bank_operations, 'EXECUTED')
-print(executed_operations)
+if __name__ == '__main__':
+    # проверка работы функции фильтрации по статусу операции
+    executed_operations = filter_by_state(list_of_bank_operations, 'EXECUTED')
+    print(executed_operations)
 
-# проверка работы функции сортировки по по убыванию (по-умолчанию) и возрастанию соответственно
-sorted_operations_from_new = sort_by_date(list_of_bank_operations)
-sorted_operations_from_old = sort_by_date(list_of_bank_operations, reverse=False)
-print(sorted_operations_from_new)
-print(sorted_operations_from_old)
+    # проверка работы функции сортировки по по убыванию (по-умолчанию) и возрастанию соответственно
+    sorted_operations_from_new = sort_by_date(list_of_bank_operations)
+    sorted_operations_from_old = sort_by_date(list_of_bank_operations, reverse=False)
+    print(sorted_operations_from_new)
+    print(sorted_operations_from_old)

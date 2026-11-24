@@ -5,7 +5,6 @@ from src.masks import get_mask_account, get_mask_card_number
 
 
 @log(filename='../widget_logs.txt')
-@log()
 def mask_account_card(data: str) -> str:
     """Маскировка номера карты или счета"""
     # Проверяем на наличие цифр в конце строки, если они есть, выполнится функция маскировки
@@ -58,8 +57,8 @@ def get_date(date: str) -> str:
     return date_obj.strftime('%d.%m.%Y')
 
 
-print(mask_account_card('Maestro 1596837868705199'))
-print(mask_account_card('Счет 64686473678894779589'))
-print(mask_account_card(''))
-
-print(get_date('2024-03-11T02:26:18.671407'))
+if __name__ == '__main__':
+    print(mask_account_card('Maestro 1596837868705199'))
+    print(mask_account_card('Счет 64686473678894779589'))
+    print(mask_account_card(''))
+    print(get_date('2024-03-11T02:26:18.671407'))

@@ -101,5 +101,6 @@ def card_number_generator(start, end):
         yield card_number
 
 
-for card_number in card_number_generator(1, 5):
-    print(card_number)
+if __name__ == '__main__':
+    for card_number in card_number_generator(1, 5):
+        print(card_number)
